@@ -1,0 +1,11 @@
+D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/normalX86Debug/x86/CMakeFiles/edge_jni.dir
+D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/normalX86Debug/x86/CMakeFiles/edge_v1.dir
+D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/normalX86Debug/x86/CMakeFiles/edge_v3.dir
+D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/normalX86Debug/x86/CMakeFiles/edge_v2s.dir
+D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/normalX86Debug/x86/CMakeFiles/edge_v2.dir
+D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/normalX86Debug/x86/CMakeFiles/n2n_v2s.dir
+D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/normalX86Debug/x86/CMakeFiles/n2n_v1.dir
+D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/normalX86Debug/x86/CMakeFiles/uip.dir
+D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/normalX86Debug/x86/CMakeFiles/slog.dir
+D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/normalX86Debug/x86/CMakeFiles/edit_cache.dir
+D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/normalX86Debug/x86/CMakeFiles/rebuild_cache.dir

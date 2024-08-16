@@ -12,12 +12,6 @@ import androidx.multidex.MultiDexApplication;
 
 import net.happyn.happynet.storage.db.base.DaoMaster;
 import net.happyn.happynet.storage.db.base.DaoSession;
-import net.happyn.happynet.tool.N2nTools;
-
-import com.tencent.bugly.Bugly;
-import com.umeng.analytics.MobclickAgent;
-import com.umeng.commonsdk.UMConfigure;
-import com.umeng.socialize.PlatformConfig;
 
 
 /**
@@ -57,21 +51,21 @@ public class HappynetApplication extends MultiDexApplication {
 
         setDatabase();
 
-        UMConfigure.init(this, N2nTools.getMetaData(this, N2nTools.MetaUmengAppKey), N2nTools.getMetaData(this, N2nTools.MetaUmengChannel), UMConfigure.DEVICE_TYPE_PHONE, "");
-
-        MobclickAgent.setScenarioType(this, MobclickAgent.EScenarioType.E_UM_NORMAL);
-
-        Bugly.init(this, N2nTools.getMetaData(this, N2nTools.MetaBuglyAppId), BuildConfig.DEBUG);
-        initShare();
+//        UMConfigure.init(this, N2nTools.getMetaData(this, N2nTools.MetaUmengAppKey), N2nTools.getMetaData(this, N2nTools.MetaUmengChannel), UMConfigure.DEVICE_TYPE_PHONE, "");
+//
+//        MobclickAgent.setScenarioType(this, MobclickAgent.EScenarioType.E_UM_NORMAL);
+//
+//        Bugly.init(this, N2nTools.getMetaData(this, N2nTools.MetaBuglyAppId), BuildConfig.DEBUG);
+//        initShare();
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             initNotificationChannel();
         }
     }
 
-    private void initShare() {
-        PlatformConfig.setWeixin(N2nTools.getMetaData(this, N2nTools.MetaShareWxAppId), N2nTools.getMetaData(this, N2nTools.MetaShareWxAppSecret));
-    }
+//    private void initShare() {
+//        PlatformConfig.setWeixin(N2nTools.getMetaData(this, N2nTools.MetaShareWxAppId), N2nTools.getMetaData(this, N2nTools.MetaShareWxAppSecret));
+//    }
 
     public static HappynetApplication getInstance() {
         return instance;

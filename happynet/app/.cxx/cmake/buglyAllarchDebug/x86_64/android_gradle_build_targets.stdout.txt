@@ -1,0 +1,2 @@
+ninja: Entering directory `D:\workspace\external\happynandroid\happynet\app\.cxx\cmake\buglyAllarchDebug\x86_64'
+ninja: no work to do.

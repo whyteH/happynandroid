@@ -1,0 +1,626 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 17 min SDK version: armeabi-v7a",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "No CMake version was specified in build.gradle. Using default version 3.10.2.",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Trying to locate CMake in local SDK repository.",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "- CMake found in SDK at \u0027D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\u0027 had version \u00273.10.2\u0027",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "CMake \u00273.18.1\u0027 found in SDK did not match requested version \u00273.10.2\u0027.",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "CMake \u00273.22.1\u0027 found in SDK did not match requested version \u00273.10.2\u0027.",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "CMake \u00273.6.0\u0027 found in SDK did not match requested version \u00273.10.2\u0027.",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON D:\\happynandroid\\happynet\\app\\.cxx\\cmake\\normalAllarchDebug\\armeabi-v7a\\android_gradle_build.json due to:",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "- command changed from previous, will remove stale json folder",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027D:\\happynandroid\\happynet\\app\\.cxx\\cmake\\normalAllarchDebug\\armeabi-v7a\u0027",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027D:\\happynandroid\\happynet\\app\\.cxx\\cmake\\normalAllarchDebug\\armeabi-v7a\u0027",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "executing cmake Executable : D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe\narguments : \n-HD:\\happynandroid\\happynet\\app\n-DCMAKE_C_FLAGS\u003d-D__ANDROID_NDK__\n-DCMAKE_FIND_ROOT_PATH\u003dD:\\happynandroid\\happynet\\app\\.cxx\\cmake\\normalAllarchDebug\\prefab\\armeabi-v7a\\prefab\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DCMAKE_TOOLCHAIN_FILE\u003dD:\\developer\\Android\\Sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake\n-DANDROID_ABI\u003darmeabi-v7a\n-DANDROID_NDK\u003dD:\\developer\\Android\\Sdk\\ndk-bundle\n-DANDROID_PLATFORM\u003dandroid-17\n-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a\n-DCMAKE_ANDROID_NDK\u003dD:\\developer\\Android\\Sdk\\ndk-bundle\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dD:\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\normalAllarchDebug\\obj\\armeabi-v7a\n-DCMAKE_MAKE_PROGRAM\u003dD:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d17\n-BD:\\happynandroid\\happynet\\app\\.cxx\\cmake\\normalAllarchDebug\\armeabi-v7a\n-GNinja\njvmArgs : \n\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "[\u003d\u003d \"CMake Server\" \u003d\u003d[\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"supportedProtocolVersions\":[{\"isExperimental\":true,\"major\":1,\"minor\":1}],\"type\":\"hello\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "]\u003d\u003d \"CMake Server\" \u003d\u003d]\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"handshake\",\n  \"cookie\": \"gradle-cmake-cookie\",\n  \"protocolVersion\": {\n    \"isExperimental\": true,\n    \"major\": 1,\n    \"minor\": 1\n  },\n  \"sourceDirectory\": \"D:/happynandroid/happynet/app\",\n  \"buildDirectory\": \"D:/happynandroid/happynet/app/.cxx/cmake/normalAllarchDebug/armeabi-v7a\",\n  \"generator\": \"Ninja\"\n}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"gradle-cmake-cookie\",\"inReplyTo\":\"handshake\",\"type\":\"reply\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_C_FLAGS\\u003d-D__ANDROID_NDK__\",\n    \"-DCMAKE_FIND_ROOT_PATH\\u003dD:\\\\happynandroid\\\\happynet\\\\app\\\\.cxx\\\\cmake\\\\normalAllarchDebug\\\\prefab\\\\armeabi-v7a\\\\prefab\",\n    \"-DCMAKE_BUILD_TYPE\\u003dDebug\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003dD:\\\\developer\\\\Android\\\\Sdk\\\\ndk-bundle\\\\build\\\\cmake\\\\android.toolchain.cmake\",\n    \"-DANDROID_ABI\\u003darmeabi-v7a\",\n    \"-DANDROID_NDK\\u003dD:\\\\developer\\\\Android\\\\Sdk\\\\ndk-bundle\",\n    \"-DANDROID_PLATFORM\\u003dandroid-17\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003darmeabi-v7a\",\n    \"-DCMAKE_ANDROID_NDK\\u003dD:\\\\developer\\\\Android\\\\Sdk\\\\ndk-bundle\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003dD:\\\\happynandroid\\\\happynet\\\\app\\\\build\\\\intermediates\\\\cmake\\\\normalAllarchDebug\\\\obj\\\\armeabi-v7a\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003dD:\\\\developer\\\\Android\\\\Sdk\\\\cmake\\\\3.10.2.4988404\\\\bin\\\\ninja.exe\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d17\"\n  ]\n}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):\\n  An old version of CMake is being used that cannot automatically detect\\n  compiler attributes.  Compiler identification is being bypassed.  Some\\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\\n  CMake\u0027s built-in compiler identification.\\nCall Stack (most recent call first):\\n  D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)\\n  CMakeLists.txt:1 (project)\\n\\n\",\"title\":\"Warning\",\"type\":\"message\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "WARN",
+    "message": "CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\u0027s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)\r\n  CMakeLists.txt:1 (project)\r\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe\",\"type\":\"message\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working C compiler: D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):\\n  An old version of CMake is being used that cannot automatically detect\\n  compiler attributes.  Compiler identification is being bypassed.  Some\\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\\n  CMake\u0027s built-in compiler identification.\\nCall Stack (most recent call first):\\n  D:/happynandroid/happynet/app/.cxx/cmake/normalAllarchDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\\n  D:/happynandroid/happynet/app/.cxx/cmake/normalAllarchDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\\n\\n\",\"title\":\"Warning\",\"type\":\"message\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "WARN",
+    "message": "CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\u0027s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  D:/happynandroid/happynet/app/.cxx/cmake/normalAllarchDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/happynandroid/happynet/app/.cxx/cmake/normalAllarchDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":33,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works\",\"type\":\"message\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working C compiler: D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info\",\"type\":\"message\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compiler ABI info",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":65,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compiler ABI info - done",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features\",\"type\":\"message\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compile features",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":96,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":126,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":155,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features - done\",\"type\":\"message\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compile features - done",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe\",\"type\":\"message\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working CXX compiler: D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":184,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works\",\"type\":\"message\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working CXX compiler: D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info\",\"type\":\"message\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compiler ABI info",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":211,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compiler ABI info - done",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features\",\"type\":\"message\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compile features",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":237,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":262,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":287,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":311,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features - done\",\"type\":\"message\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compile features - done",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check if the system is big endian\",\"type\":\"message\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Check if the system is big endian",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Searching 16 bit integer\",\"type\":\"message\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Searching 16 bit integer",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Looking for sys/types.h\",\"type\":\"message\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Looking for sys/types.h",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":334,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Looking for sys/types.h - found\",\"type\":\"message\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Looking for sys/types.h - found",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Looking for stdint.h\",\"type\":\"message\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Looking for stdint.h",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":356,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Looking for stdint.h - found\",\"type\":\"message\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Looking for stdint.h - found",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Looking for stddef.h\",\"type\":\"message\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Looking for stddef.h",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":377,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Looking for stddef.h - found\",\"type\":\"message\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Looking for stddef.h - found",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check size of unsigned short\",\"type\":\"message\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Check size of unsigned short",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":398,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check size of unsigned short - done\",\"type\":\"message\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Check size of unsigned short - done",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Using unsigned short\",\"type\":\"message\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Using unsigned short",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":418,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check if the system is big endian - little endian\",\"type\":\"message\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Check if the system is big endian - little endian",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Configuring done\",\"type\":\"message\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Configuring done",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"type\":\"reply\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"compute\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"message\":\"Generating done\",\"type\":\"message\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Generating done",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"type\":\"reply\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"cmakeInputs\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"buildFiles\":[{\"isCMake\":true,\"isTemporary\":false,\"sources\":[\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/TestBigEndian.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckTypeSize.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFile.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFileCXX.cmake\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFile.c.in\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFile.c.in\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFile.c.in\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckTypeSize.c.in\",\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/TestEndianess.c.in\"]},{\"isCMake\":false,\"isTemporary\":false,\"sources\":[\"CMakeLists.txt\",\"D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake\",\"D:/developer/Android/Sdk/ndk-bundle/build/cmake/platforms.cmake\",\"D:/developer/Android/Sdk/ndk-bundle/build/cmake/compiler_id.cmake\",\"D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake\"]},{\"isCMake\":false,\"isTemporary\":true,\"sources\":[\".cxx/cmake/normalAllarchDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake\",\".cxx/cmake/normalAllarchDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\".cxx/cmake/normalAllarchDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\",\".cxx/cmake/normalAllarchDebug/armeabi-v7a/CMakeFiles/feature_tests.c\",\".cxx/cmake/normalAllarchDebug/armeabi-v7a/CMakeFiles/feature_tests.c\",\".cxx/cmake/normalAllarchDebug/armeabi-v7a/CMakeFiles/feature_tests.c\",\".cxx/cmake/normalAllarchDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\".cxx/cmake/normalAllarchDebug/armeabi-v7a/CMakeFiles/feature_tests.cxx\",\".cxx/cmake/normalAllarchDebug/armeabi-v7a/CMakeFiles/feature_tests.cxx\",\".cxx/cmake/normalAllarchDebug/armeabi-v7a/CMakeFiles/feature_tests.cxx\",\".cxx/cmake/normalAllarchDebug/armeabi-v7a/CMakeFiles/feature_tests.cxx\",\".cxx/cmake/normalAllarchDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\",\".cxx/cmake/normalAllarchDebug/armeabi-v7a/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c\"]}],\"cmakeRootDirectory\":\"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10\",\"cookie\":\"\",\"inReplyTo\":\"cmakeInputs\",\"sourceDirectory\":\"D:/happynandroid/happynet/app\",\"type\":\"reply\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"codemodel\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"configurations\":[{\"name\":\"Debug\",\"projects\":[{\"buildDirectory\":\"D:/happynandroid/happynet/app/.cxx/cmake/normalAllarchDebug/armeabi-v7a\",\"name\":\"Happynet\",\"sourceDirectory\":\"D:/happynandroid/happynet/app\",\"targets\":[{\"artifacts\":[\"D:/happynandroid/happynet/app/build/intermediates/cmake/normalAllarchDebug/obj/armeabi-v7a/libn2n_v1.so\"],\"buildDirectory\":\"D:/happynandroid/happynet/app/.cxx/cmake/normalAllarchDebug/armeabi-v7a\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -march\u003darmv7-a -mthumb -Wformat -Werror\u003dformat-security -D__ANDROID_NDK__ -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"CMAKE_BUILD\",\"GIT_RELEASE\u003d\\\"\\\"\",\"N2N_MODIFY_AUTHOR\u003d\\\"happyn(https://happyn.net) switchwang(https://github.com/switch-st) zhangbz(https://github.com/zhangbz)\\\"\",\"N2N_MODIFY_VERSION\u003d\\\"v2s_0.1.0\\\"\",\"N2N_OSNAME\u003d\\\"Android-1\\\"\",\"N2N_VERSION\u003d\\\"2.9.0\\\"\",\"PACKAGE_OSNAME\u003d\\\"Android-1\\\"\",\"PACKAGE_VERSION\u003d\\\"2.9.0\\\"\",\"UIP_CONF_BYTE_ORDER\u003d\\\"UIP_LITTLE_ENDIAN\\\"\",\"n2n_v1_EXPORTS\"],\"includePath\":[{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/edge_jni\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/slog\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/tun2tap\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/uip\"}],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"src/main/cpp/n2n_v1/n2n.c\",\"src/main/cpp/n2n_v1/minilzo.c\",\"src/main/cpp/n2n_v1/twofish.c\",\"src/main/cpp/n2n_v1/android/tuntap_android.c\",\"src/main/cpp/n2n_v1/version.c\"]}],\"fullName\":\"libn2n_v1.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id\u003dsha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments\",\"linkLibraries\":\"..\\\\..\\\\..\\\\..\\\\build\\\\intermediates\\\\cmake\\\\normalAllarchDebug\\\\obj\\\\armeabi-v7a\\\\libuip.so ..\\\\..\\\\..\\\\..\\\\build\\\\intermediates\\\\cmake\\\\normalAllarchDebug\\\\obj\\\\armeabi-v7a\\\\libslog.so -llog -latomic -lm\",\"linkPath\":\"-LD:\\\\happynandroid\\\\happynet\\\\app\\\\src\\\\main\\\\jniLibs\\\\armeabi-v7a\",\"linkerLanguage\":\"C\",\"name\":\"n2n_v1\",\"sourceDirectory\":\"D:/happynandroid/happynet/app\",\"sysroot\":\"D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"},{\"artifacts\":[\"D:/happynandroid/happynet/app/build/intermediates/cmake/normalAllarchDebug/obj/armeabi-v7a/libslog.so\"],\"buildDirectory\":\"D:/happynandroid/happynet/app/.cxx/cmake/normalAllarchDebug/armeabi-v7a\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -march\u003darmv7-a -mthumb -Wformat -Werror\u003dformat-security -D__ANDROID_NDK__ -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"CMAKE_BUILD\",\"GIT_RELEASE\u003d\\\"\\\"\",\"N2N_MODIFY_AUTHOR\u003d\\\"happyn(https://happyn.net) switchwang(https://github.com/switch-st) zhangbz(https://github.com/zhangbz)\\\"\",\"N2N_MODIFY_VERSION\u003d\\\"v2s_0.1.0\\\"\",\"N2N_OSNAME\u003d\\\"Android-1\\\"\",\"N2N_VERSION\u003d\\\"2.9.0\\\"\",\"PACKAGE_OSNAME\u003d\\\"Android-1\\\"\",\"PACKAGE_VERSION\u003d\\\"2.9.0\\\"\",\"UIP_CONF_BYTE_ORDER\u003d\\\"UIP_LITTLE_ENDIAN\\\"\",\"slog_EXPORTS\"],\"includePath\":[{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/edge_jni\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/slog\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/tun2tap\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/uip\"}],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"src/main/cpp/slog/slog.c\"]}],\"fullName\":\"libslog.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id\u003dsha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments\",\"linkLibraries\":\"-llog -latomic -lm\",\"linkPath\":\"-LD:\\\\happynandroid\\\\happynet\\\\app\\\\src\\\\main\\\\jniLibs\\\\armeabi-v7a\",\"linkerLanguage\":\"C\",\"name\":\"slog\",\"sourceDirectory\":\"D:/happynandroid/happynet/app\",\"sysroot\":\"D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"},{\"artifacts\":[\"D:/happynandroid/happynet/app/build/intermediates/cmake/normalAllarchDebug/obj/armeabi-v7a/libedge_v1.so\"],\"buildDirectory\":\"D:/happynandroid/happynet/app/.cxx/cmake/normalAllarchDebug/armeabi-v7a\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -march\u003darmv7-a -mthumb -Wformat -Werror\u003dformat-security -D__ANDROID_NDK__ -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"CMAKE_BUILD\",\"GIT_RELEASE\u003d\\\"\\\"\",\"N2N_MODIFY_AUTHOR\u003d\\\"happyn(https://happyn.net) switchwang(https://github.com/switch-st) zhangbz(https://github.com/zhangbz)\\\"\",\"N2N_MODIFY_VERSION\u003d\\\"v2s_0.1.0\\\"\",\"N2N_OSNAME\u003d\\\"Android-1\\\"\",\"N2N_VERSION\u003d\\\"2.9.0\\\"\",\"PACKAGE_OSNAME\u003d\\\"Android-1\\\"\",\"PACKAGE_VERSION\u003d\\\"2.9.0\\\"\",\"UIP_CONF_BYTE_ORDER\u003d\\\"UIP_LITTLE_ENDIAN\\\"\",\"edge_v1_EXPORTS\"],\"includePath\":[{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/edge_jni\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/slog\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/tun2tap\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/uip\"}],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"src/main/cpp/n2n_v1/edge.c\"]}],\"fullName\":\"libedge_v1.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id\u003dsha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments\",\"linkLibraries\":\"..\\\\..\\\\..\\\\..\\\\build\\\\intermediates\\\\cmake\\\\normalAllarchDebug\\\\obj\\\\armeabi-v7a\\\\libn2n_v1.so ..\\\\..\\\\..\\\\..\\\\build\\\\intermediates\\\\cmake\\\\normalAllarchDebug\\\\obj\\\\armeabi-v7a\\\\libslog.so -llog ..\\\\..\\\\..\\\\..\\\\build\\\\intermediates\\\\cmake\\\\normalAllarchDebug\\\\obj\\\\armeabi-v7a\\\\libuip.so -latomic -lm\",\"linkPath\":\"-LD:\\\\happynandroid\\\\happynet\\\\app\\\\src\\\\main\\\\jniLibs\\\\armeabi-v7a\",\"linkerLanguage\":\"C\",\"name\":\"edge_v1\",\"sourceDirectory\":\"D:/happynandroid/happynet/app\",\"sysroot\":\"D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"},{\"artifacts\":[\"D:/happynandroid/happynet/app/build/intermediates/cmake/normalAllarchDebug/obj/armeabi-v7a/libedge_v3.so\"],\"buildDirectory\":\"D:/happynandroid/happynet/app/.cxx/cmake/normalAllarchDebug/armeabi-v7a\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -march\u003darmv7-a -mthumb -Wformat -Werror\u003dformat-security -D__ANDROID_NDK__ -O0 -fno-limit-debug-info  -fPIC   -DN2N_V3\",\"defines\":[\"CMAKE_BUILD\",\"GIT_RELEASE\u003d\\\"\\\"\",\"HAVE_OPENSSL_1_1\",\"N2N_HAVE_AES\",\"N2N_MODIFY_AUTHOR\u003d\\\"happyn(https://happyn.net) switchwang(https://github.com/switch-st) zhangbz(https://github.com/zhangbz)\\\"\",\"N2N_MODIFY_VERSION\u003d\\\"v2s_0.1.0\\\"\",\"N2N_OSNAME\u003d\\\"Android-1\\\"\",\"N2N_VERSION\u003d\\\"2.9.0\\\"\",\"PACKAGE_OSNAME\u003d\\\"Android-1\\\"\",\"PACKAGE_VERSION\u003d\\\"2.9.0\\\"\",\"UIP_CONF_BYTE_ORDER\u003d\\\"UIP_LITTLE_ENDIAN\\\"\",\"edge_v3_EXPORTS\"],\"includePath\":[{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/edge_jni\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/slog\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/tun2tap\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/uip\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/n2n_v3/include\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/jniLibs/armeabi-v7a/include\"}],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"src/main/cpp/n2n_v3/src/n2n.c\",\"src/main/cpp/n2n_v3/src/edge_utils.c\",\"src/main/cpp/n2n_v3/src/wire.c\",\"src/main/cpp/n2n_v3/src/minilzo.c\",\"src/main/cpp/n2n_v3/src/speck.c\",\"src/main/cpp/n2n_v3/src/pearson.c\",\"src/main/cpp/n2n_v3/src/tf.c\",\"src/main/cpp/n2n_v3/src/header_encryption.c\",\"src/main/cpp/n2n_v3/src/transform_null.c\",\"src/main/cpp/n2n_v3/src/transform_tf.c\",\"src/main/cpp/n2n_v3/src/transform_aes.c\",\"src/main/cpp/n2n_v3/src/transform_speck.c\",\"src/main/cpp/n2n_v3/src/transform_cc20.c\",\"src/main/cpp/n2n_v3/src/cc20.c\",\"src/main/cpp/n2n_v3/src/aes.c\",\"src/main/cpp/n2n_v3/src/network_traffic_filter.c\",\"src/main/cpp/n2n_v3/src/sn_selection.c\",\"src/main/cpp/n2n_v3/src/random_numbers.c\",\"src/main/cpp/edge_jni/tuntap_android_v2.c\",\"src/main/cpp/edge_jni/edge_android_v2.c\"]}],\"fullName\":\"libedge_v3.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id\u003dsha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments\",\"linkLibraries\":\"..\\\\..\\\\..\\\\..\\\\build\\\\intermediates\\\\cmake\\\\normalAllarchDebug\\\\obj\\\\armeabi-v7a\\\\libuip.so -lcrypto -latomic -lm\",\"linkPath\":\"-LD:\\\\happynandroid\\\\happynet\\\\app\\\\src\\\\main\\\\jniLibs\\\\armeabi-v7a\",\"linkerLanguage\":\"C\",\"name\":\"edge_v3\",\"sourceDirectory\":\"D:/happynandroid/happynet/app\",\"sysroot\":\"D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"},{\"artifacts\":[\"D:/happynandroid/happynet/app/build/intermediates/cmake/normalAllarchDebug/obj/armeabi-v7a/libedge_jni.so\"],\"buildDirectory\":\"D:/happynandroid/happynet/app/.cxx/cmake/normalAllarchDebug/armeabi-v7a\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -march\u003darmv7-a -mthumb -Wformat -Werror\u003dformat-security -D__ANDROID_NDK__ -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"CMAKE_BUILD\",\"GIT_RELEASE\u003d\\\"\\\"\",\"HAVE_OPENSSL_1_1\",\"N2N_HAVE_AES\",\"N2N_MODIFY_AUTHOR\u003d\\\"happyn(https://happyn.net) switchwang(https://github.com/switch-st) zhangbz(https://github.com/zhangbz)\\\"\",\"N2N_MODIFY_VERSION\u003d\\\"v2s_0.1.0\\\"\",\"N2N_OSNAME\u003d\\\"Android-1\\\"\",\"N2N_VERSION\u003d\\\"2.9.0\\\"\",\"PACKAGE_OSNAME\u003d\\\"Android-1\\\"\",\"PACKAGE_VERSION\u003d\\\"2.9.0\\\"\",\"UIP_CONF_BYTE_ORDER\u003d\\\"UIP_LITTLE_ENDIAN\\\"\",\"edge_jni_EXPORTS\"],\"includePath\":[{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/edge_jni\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/slog\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/tun2tap\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/uip\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/n2n_v3/include\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/jniLibs/armeabi-v7a/include\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/n2n_v2/include\"}],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"src/main/cpp/edge_jni/edge_jni.c\"]}],\"fullName\":\"libedge_jni.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id\u003dsha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments\",\"linkLibraries\":\"..\\\\..\\\\..\\\\..\\\\build\\\\intermediates\\\\cmake\\\\normalAllarchDebug\\\\obj\\\\armeabi-v7a\\\\libedge_v3.so ..\\\\..\\\\..\\\\..\\\\build\\\\intermediates\\\\cmake\\\\normalAllarchDebug\\\\obj\\\\armeabi-v7a\\\\libedge_v2s.so ..\\\\..\\\\..\\\\..\\\\build\\\\intermediates\\\\cmake\\\\normalAllarchDebug\\\\obj\\\\armeabi-v7a\\\\libedge_v2.so ..\\\\..\\\\..\\\\..\\\\build\\\\intermediates\\\\cmake\\\\normalAllarchDebug\\\\obj\\\\armeabi-v7a\\\\libedge_v1.so -lcrypto ..\\\\..\\\\..\\\\..\\\\build\\\\intermediates\\\\cmake\\\\normalAllarchDebug\\\\obj\\\\armeabi-v7a\\\\libn2n_v2s.so ..\\\\..\\\\..\\\\..\\\\build\\\\intermediates\\\\cmake\\\\normalAllarchDebug\\\\obj\\\\armeabi-v7a\\\\libn2n_v1.so ..\\\\..\\\\..\\\\..\\\\build\\\\intermediates\\\\cmake\\\\normalAllarchDebug\\\\obj\\\\armeabi-v7a\\\\libslog.so -llog ..\\\\..\\\\..\\\\..\\\\build\\\\intermediates\\\\cmake\\\\normalAllarchDebug\\\\obj\\\\armeabi-v7a\\\\libuip.so -latomic -lm\",\"linkPath\":\"-LD:\\\\happynandroid\\\\happynet\\\\app\\\\src\\\\main\\\\jniLibs\\\\armeabi-v7a\",\"linkerLanguage\":\"C\",\"name\":\"edge_jni\",\"sourceDirectory\":\"D:/happynandroid/happynet/app\",\"sysroot\":\"D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"},{\"artifacts\":[\"D:/happynandroid/happynet/app/build/intermediates/cmake/normalAllarchDebug/obj/armeabi-v7a/libedge_v2.so\"],\"buildDirectory\":\"D:/happynandroid/happynet/app/.cxx/cmake/normalAllarchDebug/armeabi-v7a\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -march\u003darmv7-a -mthumb -Wformat -Werror\u003dformat-security -D__ANDROID_NDK__ -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"CMAKE_BUILD\",\"GIT_RELEASE\u003d\\\"\\\"\",\"HAVE_OPENSSL_1_1\",\"N2N_HAVE_AES\",\"N2N_MODIFY_AUTHOR\u003d\\\"happyn(https://happyn.net) switchwang(https://github.com/switch-st) zhangbz(https://github.com/zhangbz)\\\"\",\"N2N_MODIFY_VERSION\u003d\\\"v2s_0.1.0\\\"\",\"N2N_OSNAME\u003d\\\"Android-1\\\"\",\"N2N_VERSION\u003d\\\"2.9.0\\\"\",\"PACKAGE_OSNAME\u003d\\\"Android-1\\\"\",\"PACKAGE_VERSION\u003d\\\"2.9.0\\\"\",\"UIP_CONF_BYTE_ORDER\u003d\\\"UIP_LITTLE_ENDIAN\\\"\",\"edge_v2_EXPORTS\"],\"includePath\":[{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/edge_jni\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/slog\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/tun2tap\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/uip\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/n2n_v2/include\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/jniLibs/armeabi-v7a/include\"}],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"src/main/cpp/n2n_v2/src/n2n.c\",\"src/main/cpp/n2n_v2/src/edge_utils.c\",\"src/main/cpp/n2n_v2/src/wire.c\",\"src/main/cpp/n2n_v2/src/minilzo.c\",\"src/main/cpp/n2n_v2/src/twofish.c\",\"src/main/cpp/n2n_v2/src/speck.c\",\"src/main/cpp/n2n_v2/src/pearson.c\",\"src/main/cpp/n2n_v2/src/header_encryption.c\",\"src/main/cpp/n2n_v2/src/transform_null.c\",\"src/main/cpp/n2n_v2/src/transform_tf.c\",\"src/main/cpp/n2n_v2/src/transform_aes.c\",\"src/main/cpp/n2n_v2/src/transform_speck.c\",\"src/main/cpp/n2n_v2/src/transform_cc20.c\",\"src/main/cpp/n2n_v2/src/random_numbers.c\",\"src/main/cpp/edge_jni/tuntap_android_v2.c\",\"src/main/cpp/edge_jni/edge_android_v2.c\"]}],\"fullName\":\"libedge_v2.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id\u003dsha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments\",\"linkLibraries\":\"..\\\\..\\\\..\\\\..\\\\build\\\\intermediates\\\\cmake\\\\normalAllarchDebug\\\\obj\\\\armeabi-v7a\\\\libuip.so -lcrypto -latomic -lm\",\"linkPath\":\"-LD:\\\\happynandroid\\\\happynet\\\\app\\\\src\\\\main\\\\jniLibs\\\\armeabi-v7a\",\"linkerLanguage\":\"C\",\"name\":\"edge_v2\",\"sourceDirectory\":\"D:/happynandroid/happynet/app\",\"sysroot\":\"D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"},{\"artifacts\":[\"D:/happynandroid/happynet/app/build/intermediates/cmake/normalAllarchDebug/obj/armeabi-v7a/libn2n_v2s.so\"],\"buildDirectory\":\"D:/happynandroid/happynet/app/.cxx/cmake/normalAllarchDebug/armeabi-v7a\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -march\u003darmv7-a -mthumb -Wformat -Werror\u003dformat-security -D__ANDROID_NDK__ -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"CMAKE_BUILD\",\"GIT_RELEASE\u003d\\\"\\\"\",\"N2N_MODIFY_AUTHOR\u003d\\\"happyn(https://happyn.net) switchwang(https://github.com/switch-st) zhangbz(https://github.com/zhangbz)\\\"\",\"N2N_MODIFY_VERSION\u003d\\\"v2s_0.1.0\\\"\",\"N2N_OSNAME\u003d\\\"Android-1\\\"\",\"N2N_VERSION\u003d\\\"2.9.0\\\"\",\"PACKAGE_OSNAME\u003d\\\"Android-1\\\"\",\"PACKAGE_VERSION\u003d\\\"2.9.0\\\"\",\"UIP_CONF_BYTE_ORDER\u003d\\\"UIP_LITTLE_ENDIAN\\\"\",\"n2n_v2s_EXPORTS\"],\"includePath\":[{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/edge_jni\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/slog\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/tun2tap\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/uip\"}],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"src/main/cpp/n2n_v2s/n2n.c\",\"src/main/cpp/n2n_v2s/n2n_keyfile.c\",\"src/main/cpp/n2n_v2s/wire.c\",\"src/main/cpp/n2n_v2s/minilzo.c\",\"src/main/cpp/n2n_v2s/twofish.c\",\"src/main/cpp/n2n_v2s/transform_null.c\",\"src/main/cpp/n2n_v2s/transform_tf.c\",\"src/main/cpp/n2n_v2s/transform_aes.c\",\"src/main/cpp/n2n_v2s/android/tuntap_android.c\",\"src/main/cpp/n2n_v2s/version.c\"]}],\"fullName\":\"libn2n_v2s.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id\u003dsha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments\",\"linkLibraries\":\"..\\\\..\\\\..\\\\..\\\\build\\\\intermediates\\\\cmake\\\\normalAllarchDebug\\\\obj\\\\armeabi-v7a\\\\libuip.so ..\\\\..\\\\..\\\\..\\\\build\\\\intermediates\\\\cmake\\\\normalAllarchDebug\\\\obj\\\\armeabi-v7a\\\\libslog.so -llog -latomic -lm\",\"linkPath\":\"-LD:\\\\happynandroid\\\\happynet\\\\app\\\\src\\\\main\\\\jniLibs\\\\armeabi-v7a\",\"linkerLanguage\":\"C\",\"name\":\"n2n_v2s\",\"sourceDirectory\":\"D:/happynandroid/happynet/app\",\"sysroot\":\"D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"},{\"artifacts\":[\"D:/happynandroid/happynet/app/build/intermediates/cmake/normalAllarchDebug/obj/armeabi-v7a/libedge_v2s.so\"],\"buildDirectory\":\"D:/happynandroid/happynet/app/.cxx/cmake/normalAllarchDebug/armeabi-v7a\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -march\u003darmv7-a -mthumb -Wformat -Werror\u003dformat-security -D__ANDROID_NDK__ -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"CMAKE_BUILD\",\"GIT_RELEASE\u003d\\\"\\\"\",\"N2N_MODIFY_AUTHOR\u003d\\\"happyn(https://happyn.net) switchwang(https://github.com/switch-st) zhangbz(https://github.com/zhangbz)\\\"\",\"N2N_MODIFY_VERSION\u003d\\\"v2s_0.1.0\\\"\",\"N2N_OSNAME\u003d\\\"Android-1\\\"\",\"N2N_VERSION\u003d\\\"2.9.0\\\"\",\"PACKAGE_OSNAME\u003d\\\"Android-1\\\"\",\"PACKAGE_VERSION\u003d\\\"2.9.0\\\"\",\"UIP_CONF_BYTE_ORDER\u003d\\\"UIP_LITTLE_ENDIAN\\\"\",\"edge_v2s_EXPORTS\"],\"includePath\":[{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/edge_jni\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/slog\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/tun2tap\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/uip\"}],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"src/main/cpp/n2n_v2s/edge.c\"]}],\"fullName\":\"libedge_v2s.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id\u003dsha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments\",\"linkLibraries\":\"..\\\\..\\\\..\\\\..\\\\build\\\\intermediates\\\\cmake\\\\normalAllarchDebug\\\\obj\\\\armeabi-v7a\\\\libn2n_v2s.so ..\\\\..\\\\..\\\\..\\\\build\\\\intermediates\\\\cmake\\\\normalAllarchDebug\\\\obj\\\\armeabi-v7a\\\\libslog.so -llog ..\\\\..\\\\..\\\\..\\\\build\\\\intermediates\\\\cmake\\\\normalAllarchDebug\\\\obj\\\\armeabi-v7a\\\\libuip.so -latomic -lm\",\"linkPath\":\"-LD:\\\\happynandroid\\\\happynet\\\\app\\\\src\\\\main\\\\jniLibs\\\\armeabi-v7a\",\"linkerLanguage\":\"C\",\"name\":\"edge_v2s\",\"sourceDirectory\":\"D:/happynandroid/happynet/app\",\"sysroot\":\"D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"},{\"artifacts\":[\"D:/happynandroid/happynet/app/build/intermediates/cmake/normalAllarchDebug/obj/armeabi-v7a/libuip.so\"],\"buildDirectory\":\"D:/happynandroid/happynet/app/.cxx/cmake/normalAllarchDebug/armeabi-v7a\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -march\u003darmv7-a -mthumb -Wformat -Werror\u003dformat-security -D__ANDROID_NDK__ -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"CMAKE_BUILD\",\"GIT_RELEASE\u003d\\\"\\\"\",\"N2N_MODIFY_AUTHOR\u003d\\\"happyn(https://happyn.net) switchwang(https://github.com/switch-st) zhangbz(https://github.com/zhangbz)\\\"\",\"N2N_MODIFY_VERSION\u003d\\\"v2s_0.1.0\\\"\",\"N2N_OSNAME\u003d\\\"Android-1\\\"\",\"N2N_VERSION\u003d\\\"2.9.0\\\"\",\"PACKAGE_OSNAME\u003d\\\"Android-1\\\"\",\"PACKAGE_VERSION\u003d\\\"2.9.0\\\"\",\"UIP_CONF_BYTE_ORDER\u003d\\\"UIP_LITTLE_ENDIAN\\\"\",\"uip_EXPORTS\"],\"includePath\":[{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/edge_jni\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/slog\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/tun2tap\"},{\"path\":\"D:/happynandroid/happynet/app/src/main/cpp/uip\"}],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"src/main/cpp/uip/uip.c\",\"src/main/cpp/uip/uip_arp.c\",\"src/main/cpp/tun2tap/tun2tap.c\"]}],\"fullName\":\"libuip.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id\u003dsha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments\",\"linkLibraries\":\"-latomic -lm\",\"linkPath\":\"-LD:\\\\happynandroid\\\\happynet\\\\app\\\\src\\\\main\\\\jniLibs\\\\armeabi-v7a\",\"linkerLanguage\":\"C\",\"name\":\"uip\",\"sourceDirectory\":\"D:/happynandroid/happynet/app\",\"sysroot\":\"D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"}]}]}],\"cookie\":\"\",\"inReplyTo\":\"codemodel\",\"type\":\"reply\"}\n",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "done executing cmake",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "write build output D:\\happynandroid\\happynet\\app\\.cxx\\cmake\\normalAllarchDebug\\armeabi-v7a\\build_output.txt",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "write command file D:\\happynandroid\\happynet\\app\\.cxx\\cmake\\normalAllarchDebug\\armeabi-v7a\\build_command.txt",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
+    "file": "D:\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "tag": "normalAllarchDebug|armeabi-v7a"
+  }
+]

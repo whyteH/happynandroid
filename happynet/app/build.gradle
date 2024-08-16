@@ -77,10 +77,10 @@ android {
         applicationId "net.happyn.happynet"
         minSdkVersion 17
         targetSdkVersion 31
-        versionCode getVersionCode()
-        versionName getVersionName()
+        versionCode 1
+        versionName "1"
         multiDexEnabled true
-        manifestPlaceholders = [UMENG_CHANNEL_VALUE: "normal", ARCH: "all", UMENG_APPKEY_VALUE: "", BUGLY_APPID_VALUE: "",
+        manifestPlaceholders = [UMENG_CHANNEL_VALUE : "normal", ARCH: "all", UMENG_APPKEY_VALUE: "", BUGLY_APPID_VALUE: "",
                                 SHARE_WX_APPID_VALUE: "", SHARE_WX_APPSECRET_VALUE: "",
                                 SHARE_WB_APPID_VALUE: "", SHARE_WB_APPSECRET_VALUE: ""]
         resConfigs "en", "zh-rCN", "zh-rTW"
@@ -92,21 +92,22 @@ android {
                 cFlags "-D__ANDROID_NDK__"
             }
         }
+//        signingConfig signingConfigs.debug
     }
 
     signingConfigs {
         debug {
-            storeFile file("happynet.jks")
-            storePassword getEnvOrConsole("HAPPYNET", "Keystore password")
-            keyAlias "happynet"
-            keyPassword getEnvOrConsole("HAPPYNET_KEYPWD", "Key password")
+            storeFile file("happynet")
+            storePassword "happynet1234"
+            keyAlias "key0"
+            keyPassword "happynet1234"
         }
 
         release {
-            storeFile file("happynet.jks")
-            storePassword getEnvOrConsole("HAPPYNET", "Keystore password")
-            keyAlias "happynet"
-            keyPassword getEnvOrConsole("HAPPYNET_KEYPWD", "Key password")
+            storeFile file("happynet")
+            storePassword "happynet1234"
+            keyAlias "key0"
+            keyPassword "happynet1234"
         }
     }
 
@@ -115,14 +116,13 @@ android {
             buildConfigField("boolean", "LOG_DEBUG", "true")
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-
+            signingConfig signingConfigs.debug
         }
 
         release {
             buildConfigField("boolean", "LOG_DEBUG", "false")
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-
             signingConfig signingConfigs.release
         }
     }
@@ -162,14 +162,14 @@ android {
             dimension "channel"
             manifestPlaceholders += [UMENG_CHANNEL_VALUE: "normal"]
         }
-        github {
-            dimension "channel"
-            manifestPlaceholders += [UMENG_CHANNEL_VALUE: "github"]
-        }
-        bugly {
-            dimension "channel"
-            manifestPlaceholders += [UMENG_CHANNEL_VALUE: "bugly"]
-        }
+//        github {
+//            dimension "channel"
+//            manifestPlaceholders += [UMENG_CHANNEL_VALUE: "github"]
+//        }
+//        bugly {
+//            dimension "channel"
+//            manifestPlaceholders += [UMENG_CHANNEL_VALUE: "bugly"]
+//        }
         arm {
             dimension "arch"
             ndk {
@@ -191,6 +191,11 @@ android {
                 manifestPlaceholders += [ARCH: "allarch"]
             }
         }
+    }
+
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
     }
 
     externalNativeBuild {
@@ -218,19 +223,10 @@ dependencies {
     //noinspection GradleCompatible
     implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'org.greenrobot:eventbus:latest.integration'
-    implementation 'com.umeng.sdk:common:latest.integration'
-    implementation 'com.umeng.sdk:utdid:latest.integration'
-    implementation 'com.umeng.sdk:analytics:latest.integration'
     implementation 'org.greenrobot:greendao:3.3.0'
-    implementation 'com.baoyz.swipemenulistview:library:1.3.0'
-    implementation 'com.wang.avi:library:2.1.3'
+//    implementation 'com.baoyz.swipemenulistview:library:1.3.0'
+//    implementation 'com.wang.avi:library:2.1.3'
     implementation 'com.orhanobut:logger:1.15'
-    implementation 'com.tencent.bugly:crashreport_upgrade:latest.release'
-    implementation 'com.tencent.bugly:nativecrashreport:latest.release'
-    implementation files('libs/umeng-share-core-6.9.2.jar')
-    implementation files('libs/umeng-share-sina-simplify-6.9.2.jar')
-    implementation files('libs/umeng-share-wechat-simplify-6.9.2.jar')
-    implementation files('libs/umeng-sharetool-6.9.2.jar')
-    implementation 'com.yanzhenjie:permission:2.0.3'
-    implementation 'com.github.f0ris.sweetalert:library:latest.release'
+    implementation 'com.github.getActivity:XXPermissions:18.5'
+    implementation 'com.github.f0ris.sweetalert:library:1.6.2'
 }

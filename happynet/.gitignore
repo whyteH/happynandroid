@@ -13,3 +13,4 @@ jacoco.exec
 /build
 .externalNativeBuild
 /app/happynet.jks
+/.cxx

@@ -1,0 +1,104 @@
+{
+  "buildFiles": [
+    "D:\\workspace\\external\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "D:\\developer\\Android\\Sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "D:\\developer\\Android\\Sdk\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "D:\\developer\\Android\\Sdk\\ndk-bundle\\build\\cmake\\compiler_id.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\githubAllarchRelease\\armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\githubAllarchRelease\\armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "edge_v2-Release-armeabi-v7a": {
+      "artifactName": "edge_v2",
+      "buildCommand": "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\githubAllarchRelease\\armeabi-v7a\" edge_v2",
+      "abi": "armeabi-v7a",
+      "output": "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubAllarchRelease\\obj\\armeabi-v7a\\libedge_v2.so",
+      "runtimeFiles": [
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubAllarchRelease\\obj\\armeabi-v7a\\libuip.so"
+      ]
+    },
+    "edge_jni-Release-armeabi-v7a": {
+      "artifactName": "edge_jni",
+      "buildCommand": "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\githubAllarchRelease\\armeabi-v7a\" edge_jni",
+      "abi": "armeabi-v7a",
+      "output": "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubAllarchRelease\\obj\\armeabi-v7a\\libedge_jni.so",
+      "runtimeFiles": [
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubAllarchRelease\\obj\\armeabi-v7a\\libedge_v3.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubAllarchRelease\\obj\\armeabi-v7a\\libedge_v2s.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubAllarchRelease\\obj\\armeabi-v7a\\libedge_v2.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubAllarchRelease\\obj\\armeabi-v7a\\libedge_v1.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubAllarchRelease\\obj\\armeabi-v7a\\libn2n_v2s.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubAllarchRelease\\obj\\armeabi-v7a\\libn2n_v1.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubAllarchRelease\\obj\\armeabi-v7a\\libslog.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubAllarchRelease\\obj\\armeabi-v7a\\libuip.so"
+      ]
+    },
+    "n2n_v2s-Release-armeabi-v7a": {
+      "artifactName": "n2n_v2s",
+      "buildCommand": "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\githubAllarchRelease\\armeabi-v7a\" n2n_v2s",
+      "abi": "armeabi-v7a",
+      "output": "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubAllarchRelease\\obj\\armeabi-v7a\\libn2n_v2s.so",
+      "runtimeFiles": [
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubAllarchRelease\\obj\\armeabi-v7a\\libuip.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubAllarchRelease\\obj\\armeabi-v7a\\libslog.so"
+      ]
+    },
+    "edge_v2s-Release-armeabi-v7a": {
+      "artifactName": "edge_v2s",
+      "buildCommand": "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\githubAllarchRelease\\armeabi-v7a\" edge_v2s",
+      "abi": "armeabi-v7a",
+      "output": "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubAllarchRelease\\obj\\armeabi-v7a\\libedge_v2s.so",
+      "runtimeFiles": [
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubAllarchRelease\\obj\\armeabi-v7a\\libn2n_v2s.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubAllarchRelease\\obj\\armeabi-v7a\\libslog.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubAllarchRelease\\obj\\armeabi-v7a\\libuip.so"
+      ]
+    },
+    "edge_v3-Release-armeabi-v7a": {
+      "artifactName": "edge_v3",
+      "buildCommand": "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\githubAllarchRelease\\armeabi-v7a\" edge_v3",
+      "abi": "armeabi-v7a",
+      "output": "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubAllarchRelease\\obj\\armeabi-v7a\\libedge_v3.so",
+      "runtimeFiles": [
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubAllarchRelease\\obj\\armeabi-v7a\\libuip.so"
+      ]
+    },
+    "edge_v1-Release-armeabi-v7a": {
+      "artifactName": "edge_v1",
+      "buildCommand": "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\githubAllarchRelease\\armeabi-v7a\" edge_v1",
+      "abi": "armeabi-v7a",
+      "output": "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubAllarchRelease\\obj\\armeabi-v7a\\libedge_v1.so",
+      "runtimeFiles": [
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubAllarchRelease\\obj\\armeabi-v7a\\libn2n_v1.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubAllarchRelease\\obj\\armeabi-v7a\\libslog.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubAllarchRelease\\obj\\armeabi-v7a\\libuip.so"
+      ]
+    },
+    "n2n_v1-Release-armeabi-v7a": {
+      "artifactName": "n2n_v1",
+      "buildCommand": "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\githubAllarchRelease\\armeabi-v7a\" n2n_v1",
+      "abi": "armeabi-v7a",
+      "output": "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubAllarchRelease\\obj\\armeabi-v7a\\libn2n_v1.so",
+      "runtimeFiles": [
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubAllarchRelease\\obj\\armeabi-v7a\\libuip.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubAllarchRelease\\obj\\armeabi-v7a\\libslog.so"
+      ]
+    },
+    "slog-Release-armeabi-v7a": {
+      "artifactName": "slog",
+      "buildCommand": "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\githubAllarchRelease\\armeabi-v7a\" slog",
+      "abi": "armeabi-v7a",
+      "output": "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubAllarchRelease\\obj\\armeabi-v7a\\libslog.so",
+      "runtimeFiles": []
+    },
+    "uip-Release-armeabi-v7a": {
+      "artifactName": "uip",
+      "buildCommand": "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\githubAllarchRelease\\armeabi-v7a\" uip",
+      "abi": "armeabi-v7a",
+      "output": "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubAllarchRelease\\obj\\armeabi-v7a\\libuip.so",
+      "runtimeFiles": []
+    }
+  }
+}

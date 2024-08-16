@@ -3,13 +3,7 @@ package net.happyn.happynet.tool;
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
-import android.util.Log;
-import com.umeng.socialize.ShareAction;
-import com.umeng.socialize.UMShareListener;
-import com.umeng.socialize.bean.SHARE_MEDIA;
-import com.umeng.socialize.media.UMImage;
-import com.umeng.socialize.media.UMWeb;
-import net.happyn.happynet.R;
+
 import net.happyn.happynet.activity.WebViewActivity;
 
 public class ShareUtils {
@@ -20,7 +14,7 @@ public class ShareUtils {
      * @param key 由官网生成的key
      * @return 返回true表示呼起手Q成功，返回fals表示呼起失败
      ******************/
-    public static boolean joinQQGroup(Activity activity,String key) {
+    public static boolean joinQQGroup(Activity activity, String key) {
         Intent intent = new Intent();
         intent.setData(Uri.parse("mqqopensdkapi://bizAgent/qm/qr?url=http%3A%2F%2Fqm.qq.com%2Fcgi-bin%2Fqm%2Fqr%3Ffrom%3Dapp%26p%3Dandroid%26k%3D" + key));
         // 此Flag可根据具体产品需要自定义，如设置，则在加群界面按返回，返回手Q主界面，不设置，按返回会返回到呼起产品界面    //intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
@@ -33,8 +27,8 @@ public class ShareUtils {
         }
     }
 
-    public static void joinQQGroup(Activity activity){
-        boolean b = joinQQGroup(activity,"5QSK63d7uDivxPW2oCpWHyi7FmE4sAzo");
+    public static void joinQQGroup(Activity activity) {
+        boolean b = joinQQGroup(activity, "5QSK63d7uDivxPW2oCpWHyi7FmE4sAzo");
         if (!b) {
             Intent intent = new Intent(activity, WebViewActivity.class);
             intent.putExtra(WebViewActivity.WEB_VIEW_TYPE, WebViewActivity.TYPE_WEB_VIEW_CONTACT);
@@ -43,62 +37,61 @@ public class ShareUtils {
     }
 
 
-
     public static void doOnClickShareItem(final Activity activity) {
-        UMWeb umWeb = new UMWeb("https://happyn.net");
-        umWeb.setTitle("happynet");
-        umWeb.setThumb(new UMImage(activity, R.mipmap.ic_launcher));
-        umWeb.setDescription("N2N is a VPN project that supports p2p.");
-
-        new ShareAction(activity)
-                .withMedia(umWeb)
-                .setDisplayList(SHARE_MEDIA.WEIXIN, SHARE_MEDIA.WEIXIN_CIRCLE/**,SHARE_MEDIA.SINA*/)
-                .setCallback(new UMShareListener() {
-                    /**
-                     * @descrption 分享开始的回调
-                     * @param platform 平台类型
-                     */
-                    @Override
-                    public void onStart(SHARE_MEDIA platform) {
-
-                    }
-
-                    /**
-                     * @descrption 分享成功的回调
-                     * @param platform 平台类型
-                     */
-                    @Override
-                    public void onResult(SHARE_MEDIA platform) {
-//                        Toast.makeText(MainActivity.this, "成功了", Toast.LENGTH_LONG).show();
-
-                        Log.e("zhangbzshare", "onResult");
-                    }
-
-                    /**
-                     * @descrption 分享失败的回调
-                     * @param platform 平台类型
-                     * @param t 错误原因
-                     */
-                    @Override
-                    public void onError(SHARE_MEDIA platform, Throwable t) {
-//                        Toast.makeText(MainActivity.this, "失败" + t.getMessage(), Toast.LENGTH_LONG).show();
-                        Log.e("happynshare", "onError : " + t.getMessage());
-
-                        Intent intent = new Intent(activity, WebViewActivity.class);
-                        intent.putExtra(WebViewActivity.WEB_VIEW_TYPE, WebViewActivity.TYPE_WEB_VIEW_SHARE);
-                        activity.startActivity(intent);
-
-                    }
-
-                    /**
-                     * @descrption 分享取消的回调
-                     * @param platform 平台类型
-                     */
-                    @Override
-                    public void onCancel(SHARE_MEDIA platform) {
-//                        Toast.makeText(MainActivity.this, "取消了", Toast.LENGTH_LONG).show();
-                        Log.e("happynshare", "onCancel");
-                    }
-                }).open();
+//        UMWeb umWeb = new UMWeb("https://happyn.net");
+//        umWeb.setTitle("happynet");
+//        umWeb.setThumb(new UMImage(activity, R.mipmap.ic_launcher));
+//        umWeb.setDescription("N2N is a VPN project that supports p2p.");
+//
+//        new ShareAction(activity)
+//                .withMedia(umWeb)
+//                .setDisplayList(SHARE_MEDIA.WEIXIN, SHARE_MEDIA.WEIXIN_CIRCLE/**,SHARE_MEDIA.SINA*/)
+//                .setCallback(new UMShareListener() {
+//                    /**
+//                     * @descrption 分享开始的回调
+//                     * @param platform 平台类型
+//                     */
+//                    @Override
+//                    public void onStart(SHARE_MEDIA platform) {
+//
+//                    }
+//
+//                    /**
+//                     * @descrption 分享成功的回调
+//                     * @param platform 平台类型
+//                     */
+//                    @Override
+//                    public void onResult(SHARE_MEDIA platform) {
+////                        Toast.makeText(MainActivity.this, "成功了", Toast.LENGTH_LONG).show();
+//
+//                        Log.e("zhangbzshare", "onResult");
+//                    }
+//
+//                    /**
+//                     * @descrption 分享失败的回调
+//                     * @param platform 平台类型
+//                     * @param t 错误原因
+//                     */
+//                    @Override
+//                    public void onError(SHARE_MEDIA platform, Throwable t) {
+////                        Toast.makeText(MainActivity.this, "失败" + t.getMessage(), Toast.LENGTH_LONG).show();
+//                        Log.e("happynshare", "onError : " + t.getMessage());
+//
+//                        Intent intent = new Intent(activity, WebViewActivity.class);
+//                        intent.putExtra(WebViewActivity.WEB_VIEW_TYPE, WebViewActivity.TYPE_WEB_VIEW_SHARE);
+//                        activity.startActivity(intent);
+//
+//                    }
+//
+//                    /**
+//                     * @descrption 分享取消的回调
+//                     * @param platform 平台类型
+//                     */
+//                    @Override
+//                    public void onCancel(SHARE_MEDIA platform) {
+////                        Toast.makeText(MainActivity.this, "取消了", Toast.LENGTH_LONG).show();
+//                        Log.e("happynshare", "onCancel");
+//                    }
+//                }).open();
     }
 }

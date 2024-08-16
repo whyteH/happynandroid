@@ -21,22 +21,27 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.widget.NestedScrollView;
 import androidx.drawerlayout.widget.DrawerLayout;
+
 import android.text.Html;
 import android.text.method.LinkMovementMethod;
 
+import com.hjq.permissions.OnPermissionCallback;
+import com.hjq.permissions.Permission;
+import com.hjq.permissions.XXPermissions;
 import com.orhanobut.logger.Logger;
-import com.tencent.bugly.beta.Beta;
-import com.yanzhenjie.permission.Action;
-import com.yanzhenjie.permission.AndPermission;
-import com.yanzhenjie.permission.runtime.Permission;
+
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
+
+import java.util.ArrayList;
 import java.util.List;
+
 import net.happyn.happynet.HappynetApplication;
 import net.happyn.happynet.R;
 import net.happyn.happynet.event.ConnectingEvent;
@@ -191,15 +196,15 @@ public class MainActivity extends BaseActivity {
 
         mStartAtBoot = (CheckBox) findViewById(R.id.check_box_start_at_boot);
         SharedPreferences n2nSp = getSharedPreferences("happynet", Context.MODE_PRIVATE);
-        if(n2nSp.getBoolean("start_at_boot", false))
+        if (n2nSp.getBoolean("start_at_boot", false))
             mStartAtBoot.setChecked(true);
 
-        mStartAtBoot.setOnClickListener(new View.OnClickListener(){
+        mStartAtBoot.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (mStartAtBoot.isChecked()) {
                     Intent vpnPrepareIntent = VpnService.prepare(MainActivity.this);
-                    if (vpnPrepareIntent != null){
+                    if (vpnPrepareIntent != null) {
                         startActivityForResult(vpnPrepareIntent, REQUEST_CODE_VPN_FOR_START_AT_BOOT);
                         return;
                     }
@@ -234,21 +239,37 @@ public class MainActivity extends BaseActivity {
                 Logger.d("shareItem onClick~");
 
                 if (Build.VERSION.SDK_INT >= 23) {
-                    AndPermission.with(MainActivity.this)
-                            .runtime()
-                            .permission(Permission.READ_EXTERNAL_STORAGE, Permission.ACCESS_FINE_LOCATION, Permission.READ_PHONE_STATE)
-                            .onGranted(new Action<List<String>>() {
-                                @Override
-                                public void onAction(List<String> data) {
-                                    ShareUtils.doOnClickShareItem(MainActivity.this);
-                                }
-                            })
-                            .onDenied(new Action<List<String>>() {
-                                @Override
-                                public void onAction(List<String> data) {
-                                    Toast.makeText(MainActivity.this, "I NEED PERMISSIONS!", Toast.LENGTH_SHORT).show();
-                                }
-                            }).start();
+                    List<String> requestList = new ArrayList<String>();
+                    requestList.add(Permission.READ_EXTERNAL_STORAGE);
+                    requestList.add(Permission.ACCESS_FINE_LOCATION);
+                    requestList.add(Permission.READ_PHONE_STATE);
+                    XXPermissions.with(MainActivity.this)
+                            .permission(requestList).request(new OnPermissionCallback() {
+                        @Override
+                        public void onGranted(@NonNull List<String> permissions, boolean allGranted) {
+                            ShareUtils.doOnClickShareItem(MainActivity.this);
+                        }
+
+                        @Override
+                        public void onDenied(@NonNull List<String> permissions, boolean doNotAskAgain) {
+                            Toast.makeText(MainActivity.this, "I NEED PERMISSIONS!", Toast.LENGTH_SHORT).show();
+                        }
+                    });
+//                    AndPermission.with(MainActivity.this)
+//                            .runtime()
+//                            .permission(Permission.READ_EXTERNAL_STORAGE, Permission.ACCESS_FINE_LOCATION, Permission.READ_PHONE_STATE)
+//                            .onGranted(new Action<List<String>>() {
+//                                @Override
+//                                public void onAction(List<String> data) {
+//                                    ShareUtils.doOnClickShareItem(MainActivity.this);
+//                                }
+//                            })
+//                            .onDenied(new Action<List<String>>() {
+//                                @Override
+//                                public void onAction(List<String> data) {
+//                                    Toast.makeText(MainActivity.this, "I NEED PERMISSIONS!", Toast.LENGTH_SHORT).show();
+//                                }
+//                            }).start();
                 } else {
                     ShareUtils.doOnClickShareItem(MainActivity.this);
                 }
@@ -281,7 +302,7 @@ public class MainActivity extends BaseActivity {
         checkUpdateItem.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Beta.checkUpgrade();
+//                Beta.checkUpgrade();
             }
         });
         checkUpdateItem.setVisibility(View.GONE);     // @TODO 暂时不显示
@@ -297,8 +318,6 @@ public class MainActivity extends BaseActivity {
             }
         });
     }
-
-
 
 
     @Override
@@ -318,8 +337,7 @@ public class MainActivity extends BaseActivity {
             intent.putExtra("Setting", bundle);
 
             startService(intent);
-        }
-        else if (requestCode == REQUEST_CODE_VPN_FOR_START_AT_BOOT) {
+        } else if (requestCode == REQUEST_CODE_VPN_FOR_START_AT_BOOT) {
             mStartAtBoot = (CheckBox) findViewById(R.id.check_box_start_at_boot);
             if (mStartAtBoot.isChecked()) {
                 if (resultCode == RESULT_OK) {
@@ -443,8 +461,8 @@ public class MainActivity extends BaseActivity {
         ThreadUtils.cachedThreadExecutor(new Runnable() {
             @Override
             public void run() {
-                if(!TextUtils.isEmpty(logTxtPath)){
-                    final String logText = IOUtils.readTxtLimit(logTxtPath,1024*2);
+                if (!TextUtils.isEmpty(logTxtPath)) {
+                    final String logText = IOUtils.readTxtLimit(logTxtPath, 1024 * 2);
                     ThreadUtils.mainThreadExecutor(new Runnable() {
                         @Override
                         public void run() {

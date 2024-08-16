@@ -12,7 +12,7 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import com.wang.avi.AVLoadingIndicatorView;
+//import com.wang.avi.AVLoadingIndicatorView;
 
 import net.happyn.happynet.R;
 import net.happyn.happynet.template.BaseTemplate;
@@ -39,7 +39,7 @@ public class WebViewActivity extends BaseActivity {
     public static final String FEEDBACK_URL = "https://forum.happyn.cn";
 
     private WebView mWebView;
-    private AVLoadingIndicatorView mLoadingView;
+//    private AVLoadingIndicatorView mLoadingView;
     private CommonTitleTemplate mCommonTitleTemplate;
 
     @Override
@@ -64,7 +64,7 @@ public class WebViewActivity extends BaseActivity {
     @Override
     protected void doOnCreate(Bundle savedInstanceState) {
 
-        mLoadingView = (AVLoadingIndicatorView) findViewById(R.id.loading_view);
+//        mLoadingView = (AVLoadingIndicatorView) findViewById(R.id.loading_view);
 
         mWebView = (WebView) findViewById(R.id.web_view);
 
@@ -94,7 +94,7 @@ public class WebViewActivity extends BaseActivity {
             @Override
             public void onPageStarted(WebView view, String url, Bitmap favicon) {
                 super.onPageStarted(view, url, favicon);
-                mLoadingView.setVisibility(View.VISIBLE);
+//                mLoadingView.setVisibility(View.VISIBLE);
 
                 if (mWebView != null) {
                     mWebView.setVisibility(View.GONE);
@@ -107,7 +107,7 @@ public class WebViewActivity extends BaseActivity {
             public void onPageFinished(WebView view, String url) {
                 super.onPageFinished(view, url);
 
-                mLoadingView.setVisibility(View.GONE);
+//                mLoadingView.setVisibility(View.GONE);
                 if (mWebView != null) {
                     mWebView.setVisibility(View.VISIBLE);
 

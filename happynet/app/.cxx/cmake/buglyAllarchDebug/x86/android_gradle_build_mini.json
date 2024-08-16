@@ -1,0 +1,104 @@
+{
+  "buildFiles": [
+    "D:\\workspace\\external\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "D:\\developer\\Android\\Sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "D:\\developer\\Android\\Sdk\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "D:\\developer\\Android\\Sdk\\ndk-bundle\\build\\cmake\\compiler_id.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\buglyAllarchDebug\\x86\" clean"
+  ],
+  "buildTargetsCommand": "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\buglyAllarchDebug\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "edge_jni-Debug-x86": {
+      "artifactName": "edge_jni",
+      "buildCommand": "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\buglyAllarchDebug\\x86\" edge_jni",
+      "abi": "x86",
+      "output": "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\buglyAllarchDebug\\obj\\x86\\libedge_jni.so",
+      "runtimeFiles": [
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\buglyAllarchDebug\\obj\\x86\\libedge_v3.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\buglyAllarchDebug\\obj\\x86\\libedge_v2s.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\buglyAllarchDebug\\obj\\x86\\libedge_v2.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\buglyAllarchDebug\\obj\\x86\\libedge_v1.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\buglyAllarchDebug\\obj\\x86\\libn2n_v2s.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\buglyAllarchDebug\\obj\\x86\\libn2n_v1.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\buglyAllarchDebug\\obj\\x86\\libslog.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\buglyAllarchDebug\\obj\\x86\\libuip.so"
+      ]
+    },
+    "edge_v2-Debug-x86": {
+      "artifactName": "edge_v2",
+      "buildCommand": "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\buglyAllarchDebug\\x86\" edge_v2",
+      "abi": "x86",
+      "output": "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\buglyAllarchDebug\\obj\\x86\\libedge_v2.so",
+      "runtimeFiles": [
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\buglyAllarchDebug\\obj\\x86\\libuip.so"
+      ]
+    },
+    "edge_v2s-Debug-x86": {
+      "artifactName": "edge_v2s",
+      "buildCommand": "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\buglyAllarchDebug\\x86\" edge_v2s",
+      "abi": "x86",
+      "output": "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\buglyAllarchDebug\\obj\\x86\\libedge_v2s.so",
+      "runtimeFiles": [
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\buglyAllarchDebug\\obj\\x86\\libn2n_v2s.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\buglyAllarchDebug\\obj\\x86\\libslog.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\buglyAllarchDebug\\obj\\x86\\libuip.so"
+      ]
+    },
+    "n2n_v1-Debug-x86": {
+      "artifactName": "n2n_v1",
+      "buildCommand": "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\buglyAllarchDebug\\x86\" n2n_v1",
+      "abi": "x86",
+      "output": "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\buglyAllarchDebug\\obj\\x86\\libn2n_v1.so",
+      "runtimeFiles": [
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\buglyAllarchDebug\\obj\\x86\\libuip.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\buglyAllarchDebug\\obj\\x86\\libslog.so"
+      ]
+    },
+    "slog-Debug-x86": {
+      "artifactName": "slog",
+      "buildCommand": "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\buglyAllarchDebug\\x86\" slog",
+      "abi": "x86",
+      "output": "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\buglyAllarchDebug\\obj\\x86\\libslog.so",
+      "runtimeFiles": []
+    },
+    "edge_v1-Debug-x86": {
+      "artifactName": "edge_v1",
+      "buildCommand": "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\buglyAllarchDebug\\x86\" edge_v1",
+      "abi": "x86",
+      "output": "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\buglyAllarchDebug\\obj\\x86\\libedge_v1.so",
+      "runtimeFiles": [
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\buglyAllarchDebug\\obj\\x86\\libn2n_v1.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\buglyAllarchDebug\\obj\\x86\\libslog.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\buglyAllarchDebug\\obj\\x86\\libuip.so"
+      ]
+    },
+    "n2n_v2s-Debug-x86": {
+      "artifactName": "n2n_v2s",
+      "buildCommand": "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\buglyAllarchDebug\\x86\" n2n_v2s",
+      "abi": "x86",
+      "output": "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\buglyAllarchDebug\\obj\\x86\\libn2n_v2s.so",
+      "runtimeFiles": [
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\buglyAllarchDebug\\obj\\x86\\libuip.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\buglyAllarchDebug\\obj\\x86\\libslog.so"
+      ]
+    },
+    "uip-Debug-x86": {
+      "artifactName": "uip",
+      "buildCommand": "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\buglyAllarchDebug\\x86\" uip",
+      "abi": "x86",
+      "output": "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\buglyAllarchDebug\\obj\\x86\\libuip.so",
+      "runtimeFiles": []
+    },
+    "edge_v3-Debug-x86": {
+      "artifactName": "edge_v3",
+      "buildCommand": "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\buglyAllarchDebug\\x86\" edge_v3",
+      "abi": "x86",
+      "output": "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\buglyAllarchDebug\\obj\\x86\\libedge_v3.so",
+      "runtimeFiles": [
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\buglyAllarchDebug\\obj\\x86\\libuip.so"
+      ]
+    }
+  }
+}

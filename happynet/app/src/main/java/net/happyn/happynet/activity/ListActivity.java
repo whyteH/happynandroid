@@ -2,18 +2,13 @@ package net.happyn.happynet.activity;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
 import android.net.VpnService;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ListView;
 import android.widget.Toast;
 
-import com.baoyz.swipemenulistview.SwipeMenu;
-import com.baoyz.swipemenulistview.SwipeMenuCreator;
-import com.baoyz.swipemenulistview.SwipeMenuItem;
-import com.baoyz.swipemenulistview.SwipeMenuListView;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
@@ -23,6 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import cn.pedant.SweetAlert.SweetAlertDialog;
+
 import net.happyn.happynet.HappynetApplication;
 import net.happyn.happynet.R;
 import net.happyn.happynet.adapter.SettingItemAdapter;
@@ -37,7 +33,6 @@ import net.happyn.happynet.storage.db.base.N2NSettingModelDao;
 import net.happyn.happynet.storage.db.base.model.N2NSettingModel;
 import net.happyn.happynet.template.BaseTemplate;
 import net.happyn.happynet.template.CommonTitleTemplate;
-import net.happyn.happynet.tool.N2nTools;
 import net.happyn.happynet.tool.ThreadUtils;
 
 
@@ -49,7 +44,7 @@ public class ListActivity extends BaseActivity {
 
     private static final int REQUECT_CODE_VPN = 2;
 
-    private SwipeMenuListView mSettingsListView;
+    private ListView mSettingsListView;
     private SettingItemAdapter mSettingItemAdapter;
     private ArrayList<SettingItemEntity> mSettingItemEntities;
 
@@ -93,7 +88,7 @@ public class ListActivity extends BaseActivity {
         mHappynetSp = getSharedPreferences("happynet", MODE_PRIVATE);
         mHappynetEdit = mHappynetSp.edit();
 
-        mSettingsListView = (SwipeMenuListView) findViewById(R.id.lv_setting_item);
+        mSettingsListView = (ListView) findViewById(R.id.lv_setting_item);
 
         mSettingItemEntities = new ArrayList<>();
 
@@ -223,115 +218,115 @@ public class ListActivity extends BaseActivity {
         });
 
         /*****************侧滑菜单 begin********************/
-        SwipeMenuCreator creator = new SwipeMenuCreator() {
-
-            @Override
-            public void create(SwipeMenu menu) {
-                SwipeMenuItem copyItem = new SwipeMenuItem(getApplicationContext());
-                copyItem.setBackground(new ColorDrawable(Color.rgb(0xC9, 0xC9, 0xCE)));
-                copyItem.setWidth(N2nTools.dp2px(ListActivity.this, 70));
-                copyItem.setTitle("Copy");
-                copyItem.setTitleSize(18);
-                copyItem.setTitleColor(Color.WHITE);
-                menu.addMenuItem(copyItem);
-
-                SwipeMenuItem deleteItem = new SwipeMenuItem(getApplicationContext());
-                deleteItem.setBackground(new ColorDrawable(Color.rgb(0xF9, 0x3F, 0x25)));
-                deleteItem.setWidth(N2nTools.dp2px(ListActivity.this, 70));
-                deleteItem.setTitle("Delete");
-                deleteItem.setTitleSize(18);
-                deleteItem.setTitleColor(Color.WHITE);
-                menu.addMenuItem(deleteItem);
-            }
-        };
-        mSettingsListView.setMenuCreator(creator);
-
-        mSettingsListView.setSwipeDirection(SwipeMenuListView.DIRECTION_LEFT);
-        mSettingsListView.setOnMenuItemClickListener(new SwipeMenuListView.OnMenuItemClickListener() {
-            @Override
-            public boolean onMenuItemClick(int position, SwipeMenu menu, int index) {
-                final SettingItemEntity settingItemEntity = mSettingItemEntities.get(position);
-
-                switch (index) {
-                    case 0:
-                        N2NSettingModelDao n2NSettingModelDao1 = HappynetApplication.getInstance().getDaoSession().getN2NSettingModelDao();
-                        N2NSettingModel n2NSettingModelCopy = n2NSettingModelDao1.load(settingItemEntity.getSaveId());
-
-                        //1.db update
-                        String copyName = n2NSettingModelCopy.getName() + "-copy";
-                        String copyNameTmp = copyName;
-
-                        int i = 0;
-                        while (n2NSettingModelDao1.queryBuilder().where(N2NSettingModelDao.Properties.Name.eq(copyName)).unique() != null) {
-                            i++;
-                            copyName = copyNameTmp + "(" + i + ")";
-
-                        }
-
-                        N2NSettingModel n2NSettingModel = new N2NSettingModel(null, n2NSettingModelCopy.getVersion(), copyName, n2NSettingModelCopy.getIpMode(), n2NSettingModelCopy.getIp(), n2NSettingModelCopy.getNetmask(), n2NSettingModelCopy.getCommunity(),
-                                n2NSettingModelCopy.getPassword(), n2NSettingModelCopy.getDevDesc(), n2NSettingModelCopy.getSuperNode(), n2NSettingModelCopy.getMoreSettings(), n2NSettingModelCopy.getSuperNodeBackup(),
-                                n2NSettingModelCopy.getMacAddr(), n2NSettingModelCopy.getMtu(), n2NSettingModelCopy.getLocalIP(), n2NSettingModelCopy.getHolePunchInterval(),
-                                n2NSettingModelCopy.getResoveSupernodeIP(), n2NSettingModelCopy.getLocalPort(), n2NSettingModelCopy.getAllowRouting(), n2NSettingModelCopy.getDropMuticast(),
-                                n2NSettingModelCopy.isUseHttpTunnel(), n2NSettingModelCopy.getTraceLevel(), false, n2NSettingModelCopy.getGatewayIp(), n2NSettingModelCopy.getDnsServer(),
-                                n2NSettingModelCopy.getEncryptionMode());
-                        n2NSettingModelDao1.insert(n2NSettingModel);
-
-                        //2.ui update
-                        final SettingItemEntity settingItemEntity2 = new SettingItemEntity(n2NSettingModel.getName(),
-                                n2NSettingModel.getId(), n2NSettingModel.getIsSelcected());
-
-                        settingItemEntity2.setOnMoreBtnClickListener(new SettingItemEntity.OnMoreBtnClickListener() {
-                            @Override
-                            public void onClick(int positon) {
-                                Intent intent = new Intent(ListActivity.this, SettingDetailsActivity.class);
-                                intent.putExtra("type", SettingDetailsActivity.TYPE_SETTING_MODIFY);
-                                intent.putExtra("saveId", settingItemEntity2.getSaveId());
-
-                                startActivity(intent);
-                            }
-                        });
-                        mSettingItemEntities.add(settingItemEntity2);
-                        mSettingItemAdapter.notifyDataSetChanged();
-                        break;
-                    case 1:
-                        final SettingItemEntity finalSettingItemEntity = settingItemEntity;
-                        final Long currentSettingId = mHappynetSp.getLong("current_setting_id", -1);
-                        new SweetAlertDialog(ListActivity.this, SweetAlertDialog.WARNING_TYPE)
-                                .setTitleText(getString(R.string.dialog_delete))
-                                .setCancelText(getString(R.string.dialog_no))
-                                .setConfirmText(getString(R.string.dialog_yes))
-                                .showCancelButton(true)
-                                .setCancelClickListener(new SweetAlertDialog.OnSweetClickListener() {
-                                    @Override
-                                    public void onClick(SweetAlertDialog sweetAlertDialog) {
-                                        sweetAlertDialog.cancel();
-                                    }
-                                })
-                                .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
-                                    @Override
-                                    public void onClick(SweetAlertDialog sweetAlertDialog) {
-                                        N2NSettingModelDao n2NSettingModelDao = HappynetApplication.getInstance().getDaoSession().getN2NSettingModelDao();
-                                        n2NSettingModelDao.deleteByKey(finalSettingItemEntity.getSaveId());
-
-                                        mSettingItemEntities.remove(finalSettingItemEntity);
-                                        mSettingItemAdapter.notifyDataSetChanged();
-
-                                        if (N2NService.INSTANCE != null && currentSettingId == finalSettingItemEntity.getSaveId()) {
-                                            N2NService.INSTANCE.stop(null);
-                                        }
-
-                                        sweetAlertDialog.cancel();
-                                    }
-                                })
-                                .show();
-                        break;
-                    default:
-                        break;
-                }
-
-                return false;
-            }
-        });
+//        SwipeMenuCreator creator = new SwipeMenuCreator() {
+//
+//            @Override
+//            public void create(SwipeMenu menu) {
+//                SwipeMenuItem copyItem = new SwipeMenuItem(getApplicationContext());
+//                copyItem.setBackground(new ColorDrawable(Color.rgb(0xC9, 0xC9, 0xCE)));
+//                copyItem.setWidth(N2nTools.dp2px(ListActivity.this, 70));
+//                copyItem.setTitle("Copy");
+//                copyItem.setTitleSize(18);
+//                copyItem.setTitleColor(Color.WHITE);
+//                menu.addMenuItem(copyItem);
+//
+//                SwipeMenuItem deleteItem = new SwipeMenuItem(getApplicationContext());
+//                deleteItem.setBackground(new ColorDrawable(Color.rgb(0xF9, 0x3F, 0x25)));
+//                deleteItem.setWidth(N2nTools.dp2px(ListActivity.this, 70));
+//                deleteItem.setTitle("Delete");
+//                deleteItem.setTitleSize(18);
+//                deleteItem.setTitleColor(Color.WHITE);
+//                menu.addMenuItem(deleteItem);
+//            }
+//        };
+//        mSettingsListView.setMenuCreator(creator);
+//
+//        mSettingsListView.setSwipeDirection(SwipeMenuListView.DIRECTION_LEFT);
+//        mSettingsListView.setOnMenuItemClickListener(new SwipeMenuListView.OnMenuItemClickListener() {
+//            @Override
+//            public boolean onMenuItemClick(int position, SwipeMenu menu, int index) {
+//                final SettingItemEntity settingItemEntity = mSettingItemEntities.get(position);
+//
+//                switch (index) {
+//                    case 0:
+//                        N2NSettingModelDao n2NSettingModelDao1 = HappynetApplication.getInstance().getDaoSession().getN2NSettingModelDao();
+//                        N2NSettingModel n2NSettingModelCopy = n2NSettingModelDao1.load(settingItemEntity.getSaveId());
+//
+//                        //1.db update
+//                        String copyName = n2NSettingModelCopy.getName() + "-copy";
+//                        String copyNameTmp = copyName;
+//
+//                        int i = 0;
+//                        while (n2NSettingModelDao1.queryBuilder().where(N2NSettingModelDao.Properties.Name.eq(copyName)).unique() != null) {
+//                            i++;
+//                            copyName = copyNameTmp + "(" + i + ")";
+//
+//                        }
+//
+//                        N2NSettingModel n2NSettingModel = new N2NSettingModel(null, n2NSettingModelCopy.getVersion(), copyName, n2NSettingModelCopy.getIpMode(), n2NSettingModelCopy.getIp(), n2NSettingModelCopy.getNetmask(), n2NSettingModelCopy.getCommunity(),
+//                                n2NSettingModelCopy.getPassword(), n2NSettingModelCopy.getDevDesc(), n2NSettingModelCopy.getSuperNode(), n2NSettingModelCopy.getMoreSettings(), n2NSettingModelCopy.getSuperNodeBackup(),
+//                                n2NSettingModelCopy.getMacAddr(), n2NSettingModelCopy.getMtu(), n2NSettingModelCopy.getLocalIP(), n2NSettingModelCopy.getHolePunchInterval(),
+//                                n2NSettingModelCopy.getResoveSupernodeIP(), n2NSettingModelCopy.getLocalPort(), n2NSettingModelCopy.getAllowRouting(), n2NSettingModelCopy.getDropMuticast(),
+//                                n2NSettingModelCopy.isUseHttpTunnel(), n2NSettingModelCopy.getTraceLevel(), false, n2NSettingModelCopy.getGatewayIp(), n2NSettingModelCopy.getDnsServer(),
+//                                n2NSettingModelCopy.getEncryptionMode());
+//                        n2NSettingModelDao1.insert(n2NSettingModel);
+//
+//                        //2.ui update
+//                        final SettingItemEntity settingItemEntity2 = new SettingItemEntity(n2NSettingModel.getName(),
+//                                n2NSettingModel.getId(), n2NSettingModel.getIsSelcected());
+//
+//                        settingItemEntity2.setOnMoreBtnClickListener(new SettingItemEntity.OnMoreBtnClickListener() {
+//                            @Override
+//                            public void onClick(int positon) {
+//                                Intent intent = new Intent(ListActivity.this, SettingDetailsActivity.class);
+//                                intent.putExtra("type", SettingDetailsActivity.TYPE_SETTING_MODIFY);
+//                                intent.putExtra("saveId", settingItemEntity2.getSaveId());
+//
+//                                startActivity(intent);
+//                            }
+//                        });
+//                        mSettingItemEntities.add(settingItemEntity2);
+//                        mSettingItemAdapter.notifyDataSetChanged();
+//                        break;
+//                    case 1:
+//                        final SettingItemEntity finalSettingItemEntity = settingItemEntity;
+//                        final Long currentSettingId = mHappynetSp.getLong("current_setting_id", -1);
+//                        new SweetAlertDialog(ListActivity.this, SweetAlertDialog.WARNING_TYPE)
+//                                .setTitleText(getString(R.string.dialog_delete))
+//                                .setCancelText(getString(R.string.dialog_no))
+//                                .setConfirmText(getString(R.string.dialog_yes))
+//                                .showCancelButton(true)
+//                                .setCancelClickListener(new SweetAlertDialog.OnSweetClickListener() {
+//                                    @Override
+//                                    public void onClick(SweetAlertDialog sweetAlertDialog) {
+//                                        sweetAlertDialog.cancel();
+//                                    }
+//                                })
+//                                .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
+//                                    @Override
+//                                    public void onClick(SweetAlertDialog sweetAlertDialog) {
+//                                        N2NSettingModelDao n2NSettingModelDao = HappynetApplication.getInstance().getDaoSession().getN2NSettingModelDao();
+//                                        n2NSettingModelDao.deleteByKey(finalSettingItemEntity.getSaveId());
+//
+//                                        mSettingItemEntities.remove(finalSettingItemEntity);
+//                                        mSettingItemAdapter.notifyDataSetChanged();
+//
+//                                        if (N2NService.INSTANCE != null && currentSettingId == finalSettingItemEntity.getSaveId()) {
+//                                            N2NService.INSTANCE.stop(null);
+//                                        }
+//
+//                                        sweetAlertDialog.cancel();
+//                                    }
+//                                })
+//                                .show();
+//                        break;
+//                    default:
+//                        break;
+//                }
+//
+//                return false;
+//            }
+//        });
 
         /*****************侧滑菜单 end********************/
 

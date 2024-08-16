@@ -1,0 +1,15 @@
+Executable : D:\developer\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+D:\workspace\external\happynandroid\happynet\app\.cxx\cmake\normalAllarchDebug\x86_64
+edge_jni
+edge_v1
+edge_v2
+edge_v2s
+edge_v3
+n2n_v1
+n2n_v2s
+slog
+uip
+jvmArgs : 
+

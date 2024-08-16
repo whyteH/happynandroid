@@ -1,0 +1,22 @@
+                Executable : D:\developer\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe
+arguments : 
+-HD:\workspace\external\happynandroid\happynet\app
+-DCMAKE_C_FLAGS=-D__ANDROID_NDK__
+-DCMAKE_FIND_ROOT_PATH=D:\workspace\external\happynandroid\happynet\app\.cxx\cmake\githubX86Debug\prefab\x86_64\prefab
+-DCMAKE_BUILD_TYPE=Debug
+-DCMAKE_TOOLCHAIN_FILE=D:\developer\Android\Sdk\ndk-bundle\build\cmake\android.toolchain.cmake
+-DANDROID_ABI=x86_64
+-DANDROID_NDK=D:\developer\Android\Sdk\ndk-bundle
+-DANDROID_PLATFORM=android-17
+-DCMAKE_ANDROID_ARCH_ABI=x86_64
+-DCMAKE_ANDROID_NDK=D:\developer\Android\Sdk\ndk-bundle
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\workspace\external\happynandroid\happynet\app\build\intermediates\cmake\githubX86Debug\obj\x86_64
+-DCMAKE_MAKE_PROGRAM=D:\developer\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_SYSTEM_VERSION=17
+-BD:\workspace\external\happynandroid\happynet\app\.cxx\cmake\githubX86Debug\x86_64
+-GNinja
+jvmArgs : 
+
+Build command args:

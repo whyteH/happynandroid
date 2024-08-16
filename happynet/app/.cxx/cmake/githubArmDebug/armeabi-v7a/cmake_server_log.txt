@@ -1,0 +1,953 @@
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"supportedProtocolVersions":[{"isExperimental":true,"major":1,"minor":1}],"type":"hello"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "handshake",
+  "cookie": "gradle-cmake-cookie",
+  "protocolVersion": {
+    "isExperimental": true,
+    "major": 1,
+    "minor": 1
+  },
+  "sourceDirectory": "D:/workspace/external/happynandroid/happynet/app",
+  "buildDirectory": "D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a",
+  "generator": "Ninja"
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"gradle-cmake-cookie","inReplyTo":"handshake","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "configure",
+  "cacheArguments": [
+    "",
+    "-DCMAKE_C_FLAGS\u003d-D__ANDROID_NDK__",
+    "-DCMAKE_FIND_ROOT_PATH\u003dD:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\githubArmDebug\\prefab\\armeabi-v7a\\prefab",
+    "-DCMAKE_BUILD_TYPE\u003dDebug",
+    "-DCMAKE_TOOLCHAIN_FILE\u003dD:\\developer\\Android\\Sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "-DANDROID_ABI\u003darmeabi-v7a",
+    "-DANDROID_NDK\u003dD:\\developer\\Android\\Sdk\\ndk-bundle",
+    "-DANDROID_PLATFORM\u003dandroid-17",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a",
+    "-DCMAKE_ANDROID_NDK\u003dD:\\developer\\Android\\Sdk\\ndk-bundle",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dD:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubArmDebug\\obj\\armeabi-v7a",
+    "-DCMAKE_MAKE_PROGRAM\u003dD:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_SYSTEM_VERSION\u003d17"
+  ]
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)\n  CMakeLists.txt:1 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)
+  CMakeLists.txt:1 (project)
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)
+  CMakeLists.txt:1 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working C compiler: D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working C compiler: D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe
+CMAKE SERVER: Check for working C compiler: D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":33,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working C compiler: D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working C compiler: D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works
+CMAKE SERVER: Check for working C compiler: D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compiler ABI info","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compiler ABI info
+CMAKE SERVER: Detecting C compiler ABI info
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":65,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compiler ABI info - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compiler ABI info - done
+CMAKE SERVER: Detecting C compiler ABI info - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compile features","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compile features
+CMAKE SERVER: Detecting C compile features
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":96,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":126,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":155,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compile features - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compile features - done
+CMAKE SERVER: Detecting C compile features - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working CXX compiler: D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working CXX compiler: D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe
+CMAKE SERVER: Check for working CXX compiler: D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":184,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working CXX compiler: D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working CXX compiler: D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works
+CMAKE SERVER: Check for working CXX compiler: D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compiler ABI info","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compiler ABI info
+CMAKE SERVER: Detecting CXX compiler ABI info
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":211,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compiler ABI info - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compiler ABI info - done
+CMAKE SERVER: Detecting CXX compiler ABI info - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compile features","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compile features
+CMAKE SERVER: Detecting CXX compile features
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":237,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":262,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":287,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":311,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compile features - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compile features - done
+CMAKE SERVER: Detecting CXX compile features - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check if the system is big endian","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check if the system is big endian
+CMAKE SERVER: Check if the system is big endian
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Searching 16 bit integer","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Searching 16 bit integer
+CMAKE SERVER: Searching 16 bit integer
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Looking for sys/types.h","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Looking for sys/types.h
+CMAKE SERVER: Looking for sys/types.h
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":334,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Looking for sys/types.h - found","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Looking for sys/types.h - found
+CMAKE SERVER: Looking for sys/types.h - found
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Looking for stdint.h","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Looking for stdint.h
+CMAKE SERVER: Looking for stdint.h
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":356,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Looking for stdint.h - found","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Looking for stdint.h - found
+CMAKE SERVER: Looking for stdint.h - found
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Looking for stddef.h","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Looking for stddef.h
+CMAKE SERVER: Looking for stddef.h
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":377,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Looking for stddef.h - found","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Looking for stddef.h - found
+CMAKE SERVER: Looking for stddef.h - found
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check size of unsigned short","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check size of unsigned short
+CMAKE SERVER: Check size of unsigned short
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":398,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check size of unsigned short - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check size of unsigned short - done
+CMAKE SERVER: Check size of unsigned short - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Using unsigned short","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Using unsigned short
+CMAKE SERVER: Using unsigned short
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: CMake Warning at D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":418,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check if the system is big endian - little endian","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check if the system is big endian - little endian
+CMAKE SERVER: Check if the system is big endian - little endian
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Configuring done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Configuring done
+CMAKE SERVER: Configuring done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"compute"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","message":"Generating done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Generating done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"cmakeInputs"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"buildFiles":[{"isCMake":true,"isTemporary":false,"sources":["D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/TestBigEndian.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckTypeSize.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFile.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFileCXX.cmake","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFile.c.in","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFile.c.in","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFile.c.in","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckTypeSize.c.in","D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/TestEndianess.c.in"]},{"isCMake":false,"isTemporary":false,"sources":["CMakeLists.txt","D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake","D:/developer/Android/Sdk/ndk-bundle/build/cmake/platforms.cmake","D:/developer/Android/Sdk/ndk-bundle/build/cmake/compiler_id.cmake","D:/developer/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake"]},{"isCMake":false,"isTemporary":true,"sources":[".cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake",".cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake",".cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake",".cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/feature_tests.c",".cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/feature_tests.c",".cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/feature_tests.c",".cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake",".cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/feature_tests.cxx",".cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/feature_tests.cxx",".cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/feature_tests.cxx",".cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/feature_tests.cxx",".cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake",".cxx/cmake/githubArmDebug/armeabi-v7a/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c"]}],"cmakeRootDirectory":"D:/developer/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10","cookie":"","inReplyTo":"cmakeInputs","sourceDirectory":"D:/workspace/external/happynandroid/happynet/app","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"codemodel"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"configurations":[{"name":"Debug","projects":[{"buildDirectory":"D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a","name":"Happynet","sourceDirectory":"D:/workspace/external/happynandroid/happynet/app","targets":[{"artifacts":["D:/workspace/external/happynandroid/happynet/app/build/intermediates/cmake/githubArmDebug/obj/armeabi-v7a/libedge_v1.so"],"buildDirectory":"D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -D__ANDROID_NDK__ -O0 -fno-limit-debug-info  -fPIC  ","defines":["CMAKE_BUILD","GIT_RELEASE=\"\"","N2N_MODIFY_AUTHOR=\"happyn(https://happyn.net) switchwang(https://github.com/switch-st) zhangbz(https://github.com/zhangbz)\"","N2N_MODIFY_VERSION=\"v2s_0.1.0\"","N2N_OSNAME=\"Android-1\"","N2N_VERSION=\"2.9.0\"","PACKAGE_OSNAME=\"Android-1\"","PACKAGE_VERSION=\"2.9.0\"","UIP_CONF_BYTE_ORDER=\"UIP_LITTLE_ENDIAN\"","edge_v1_EXPORTS"],"includePath":[{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/edge_jni"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/slog"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/tun2tap"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/uip"}],"isGenerated":false,"language":"C","sources":["src/main/cpp/n2n_v1/edge.c"]}],"fullName":"libedge_v1.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments","linkLibraries":"..\\..\\..\\..\\build\\intermediates\\cmake\\githubArmDebug\\obj\\armeabi-v7a\\libn2n_v1.so ..\\..\\..\\..\\build\\intermediates\\cmake\\githubArmDebug\\obj\\armeabi-v7a\\libslog.so -llog ..\\..\\..\\..\\build\\intermediates\\cmake\\githubArmDebug\\obj\\armeabi-v7a\\libuip.so -latomic -lm","linkPath":"-LD:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\jniLibs\\armeabi-v7a","linkerLanguage":"C","name":"edge_v1","sourceDirectory":"D:/workspace/external/happynandroid/happynet/app","sysroot":"D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"SHARED_LIBRARY"},{"artifacts":["D:/workspace/external/happynandroid/happynet/app/build/intermediates/cmake/githubArmDebug/obj/armeabi-v7a/libedge_v3.so"],"buildDirectory":"D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -D__ANDROID_NDK__ -O0 -fno-limit-debug-info  -fPIC   -DN2N_V3","defines":["CMAKE_BUILD","GIT_RELEASE=\"\"","HAVE_OPENSSL_1_1","N2N_HAVE_AES","N2N_MODIFY_AUTHOR=\"happyn(https://happyn.net) switchwang(https://github.com/switch-st) zhangbz(https://github.com/zhangbz)\"","N2N_MODIFY_VERSION=\"v2s_0.1.0\"","N2N_OSNAME=\"Android-1\"","N2N_VERSION=\"2.9.0\"","PACKAGE_OSNAME=\"Android-1\"","PACKAGE_VERSION=\"2.9.0\"","UIP_CONF_BYTE_ORDER=\"UIP_LITTLE_ENDIAN\"","edge_v3_EXPORTS"],"includePath":[{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/edge_jni"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/slog"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/tun2tap"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/uip"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/n2n_v3/include"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/jniLibs/armeabi-v7a/include"}],"isGenerated":false,"language":"C","sources":["src/main/cpp/n2n_v3/src/n2n.c","src/main/cpp/n2n_v3/src/edge_utils.c","src/main/cpp/n2n_v3/src/wire.c","src/main/cpp/n2n_v3/src/minilzo.c","src/main/cpp/n2n_v3/src/speck.c","src/main/cpp/n2n_v3/src/pearson.c","src/main/cpp/n2n_v3/src/tf.c","src/main/cpp/n2n_v3/src/header_encryption.c","src/main/cpp/n2n_v3/src/transform_null.c","src/main/cpp/n2n_v3/src/transform_tf.c","src/main/cpp/n2n_v3/src/transform_aes.c","src/main/cpp/n2n_v3/src/transform_speck.c","src/main/cpp/n2n_v3/src/transform_cc20.c","src/main/cpp/n2n_v3/src/cc20.c","src/main/cpp/n2n_v3/src/aes.c","src/main/cpp/n2n_v3/src/network_traffic_filter.c","src/main/cpp/n2n_v3/src/sn_selection.c","src/main/cpp/n2n_v3/src/random_numbers.c","src/main/cpp/edge_jni/tuntap_android_v2.c","src/main/cpp/edge_jni/edge_android_v2.c"]}],"fullName":"libedge_v3.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments","linkLibraries":"..\\..\\..\\..\\build\\intermediates\\cmake\\githubArmDebug\\obj\\armeabi-v7a\\libuip.so -lcrypto -latomic -lm","linkPath":"-LD:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\jniLibs\\armeabi-v7a","linkerLanguage":"C","name":"edge_v3","sourceDirectory":"D:/workspace/external/happynandroid/happynet/app","sysroot":"D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"SHARED_LIBRARY"},{"artifacts":["D:/workspace/external/happynandroid/happynet/app/build/intermediates/cmake/githubArmDebug/obj/armeabi-v7a/libedge_v2.so"],"buildDirectory":"D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -D__ANDROID_NDK__ -O0 -fno-limit-debug-info  -fPIC  ","defines":["CMAKE_BUILD","GIT_RELEASE=\"\"","HAVE_OPENSSL_1_1","N2N_HAVE_AES","N2N_MODIFY_AUTHOR=\"happyn(https://happyn.net) switchwang(https://github.com/switch-st) zhangbz(https://github.com/zhangbz)\"","N2N_MODIFY_VERSION=\"v2s_0.1.0\"","N2N_OSNAME=\"Android-1\"","N2N_VERSION=\"2.9.0\"","PACKAGE_OSNAME=\"Android-1\"","PACKAGE_VERSION=\"2.9.0\"","UIP_CONF_BYTE_ORDER=\"UIP_LITTLE_ENDIAN\"","edge_v2_EXPORTS"],"includePath":[{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/edge_jni"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/slog"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/tun2tap"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/uip"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/n2n_v2/include"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/jniLibs/armeabi-v7a/include"}],"isGenerated":false,"language":"C","sources":["src/main/cpp/n2n_v2/src/n2n.c","src/main/cpp/n2n_v2/src/edge_utils.c","src/main/cpp/n2n_v2/src/wire.c","src/main/cpp/n2n_v2/src/minilzo.c","src/main/cpp/n2n_v2/src/twofish.c","src/main/cpp/n2n_v2/src/speck.c","src/main/cpp/n2n_v2/src/pearson.c","src/main/cpp/n2n_v2/src/header_encryption.c","src/main/cpp/n2n_v2/src/transform_null.c","src/main/cpp/n2n_v2/src/transform_tf.c","src/main/cpp/n2n_v2/src/transform_aes.c","src/main/cpp/n2n_v2/src/transform_speck.c","src/main/cpp/n2n_v2/src/transform_cc20.c","src/main/cpp/n2n_v2/src/random_numbers.c","src/main/cpp/edge_jni/tuntap_android_v2.c","src/main/cpp/edge_jni/edge_android_v2.c"]}],"fullName":"libedge_v2.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments","linkLibraries":"..\\..\\..\\..\\build\\intermediates\\cmake\\githubArmDebug\\obj\\armeabi-v7a\\libuip.so -lcrypto -latomic -lm","linkPath":"-LD:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\jniLibs\\armeabi-v7a","linkerLanguage":"C","name":"edge_v2","sourceDirectory":"D:/workspace/external/happynandroid/happynet/app","sysroot":"D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"SHARED_LIBRARY"},{"artifacts":["D:/workspace/external/happynandroid/happynet/app/build/intermediates/cmake/githubArmDebug/obj/armeabi-v7a/libslog.so"],"buildDirectory":"D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -D__ANDROID_NDK__ -O0 -fno-limit-debug-info  -fPIC  ","defines":["CMAKE_BUILD","GIT_RELEASE=\"\"","N2N_MODIFY_AUTHOR=\"happyn(https://happyn.net) switchwang(https://github.com/switch-st) zhangbz(https://github.com/zhangbz)\"","N2N_MODIFY_VERSION=\"v2s_0.1.0\"","N2N_OSNAME=\"Android-1\"","N2N_VERSION=\"2.9.0\"","PACKAGE_OSNAME=\"Android-1\"","PACKAGE_VERSION=\"2.9.0\"","UIP_CONF_BYTE_ORDER=\"UIP_LITTLE_ENDIAN\"","slog_EXPORTS"],"includePath":[{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/edge_jni"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/slog"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/tun2tap"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/uip"}],"isGenerated":false,"language":"C","sources":["src/main/cpp/slog/slog.c"]}],"fullName":"libslog.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments","linkLibraries":"-llog -latomic -lm","linkPath":"-LD:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\jniLibs\\armeabi-v7a","linkerLanguage":"C","name":"slog","sourceDirectory":"D:/workspace/external/happynandroid/happynet/app","sysroot":"D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"SHARED_LIBRARY"},{"artifacts":["D:/workspace/external/happynandroid/happynet/app/build/intermediates/cmake/githubArmDebug/obj/armeabi-v7a/libn2n_v2s.so"],"buildDirectory":"D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -D__ANDROID_NDK__ -O0 -fno-limit-debug-info  -fPIC  ","defines":["CMAKE_BUILD","GIT_RELEASE=\"\"","N2N_MODIFY_AUTHOR=\"happyn(https://happyn.net) switchwang(https://github.com/switch-st) zhangbz(https://github.com/zhangbz)\"","N2N_MODIFY_VERSION=\"v2s_0.1.0\"","N2N_OSNAME=\"Android-1\"","N2N_VERSION=\"2.9.0\"","PACKAGE_OSNAME=\"Android-1\"","PACKAGE_VERSION=\"2.9.0\"","UIP_CONF_BYTE_ORDER=\"UIP_LITTLE_ENDIAN\"","n2n_v2s_EXPORTS"],"includePath":[{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/edge_jni"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/slog"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/tun2tap"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/uip"}],"isGenerated":false,"language":"C","sources":["src/main/cpp/n2n_v2s/n2n.c","src/main/cpp/n2n_v2s/n2n_keyfile.c","src/main/cpp/n2n_v2s/wire.c","src/main/cpp/n2n_v2s/minilzo.c","src/main/cpp/n2n_v2s/twofish.c","src/main/cpp/n2n_v2s/transform_null.c","src/main/cpp/n2n_v2s/transform_tf.c","src/main/cpp/n2n_v2s/transform_aes.c","src/main/cpp/n2n_v2s/android/tuntap_android.c","src/main/cpp/n2n_v2s/version.c"]}],"fullName":"libn2n_v2s.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments","linkLibraries":"..\\..\\..\\..\\build\\intermediates\\cmake\\githubArmDebug\\obj\\armeabi-v7a\\libuip.so ..\\..\\..\\..\\build\\intermediates\\cmake\\githubArmDebug\\obj\\armeabi-v7a\\libslog.so -llog -latomic -lm","linkPath":"-LD:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\jniLibs\\armeabi-v7a","linkerLanguage":"C","name":"n2n_v2s","sourceDirectory":"D:/workspace/external/happynandroid/happynet/app","sysroot":"D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"SHARED_LIBRARY"},{"artifacts":["D:/workspace/external/happynandroid/happynet/app/build/intermediates/cmake/githubArmDebug/obj/armeabi-v7a/libedge_v2s.so"],"buildDirectory":"D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -D__ANDROID_NDK__ -O0 -fno-limit-debug-info  -fPIC  ","defines":["CMAKE_BUILD","GIT_RELEASE=\"\"","N2N_MODIFY_AUTHOR=\"happyn(https://happyn.net) switchwang(https://github.com/switch-st) zhangbz(https://github.com/zhangbz)\"","N2N_MODIFY_VERSION=\"v2s_0.1.0\"","N2N_OSNAME=\"Android-1\"","N2N_VERSION=\"2.9.0\"","PACKAGE_OSNAME=\"Android-1\"","PACKAGE_VERSION=\"2.9.0\"","UIP_CONF_BYTE_ORDER=\"UIP_LITTLE_ENDIAN\"","edge_v2s_EXPORTS"],"includePath":[{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/edge_jni"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/slog"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/tun2tap"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/uip"}],"isGenerated":false,"language":"C","sources":["src/main/cpp/n2n_v2s/edge.c"]}],"fullName":"libedge_v2s.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments","linkLibraries":"..\\..\\..\\..\\build\\intermediates\\cmake\\githubArmDebug\\obj\\armeabi-v7a\\libn2n_v2s.so ..\\..\\..\\..\\build\\intermediates\\cmake\\githubArmDebug\\obj\\armeabi-v7a\\libslog.so -llog ..\\..\\..\\..\\build\\intermediates\\cmake\\githubArmDebug\\obj\\armeabi-v7a\\libuip.so -latomic -lm","linkPath":"-LD:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\jniLibs\\armeabi-v7a","linkerLanguage":"C","name":"edge_v2s","sourceDirectory":"D:/workspace/external/happynandroid/happynet/app","sysroot":"D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"SHARED_LIBRARY"},{"artifacts":["D:/workspace/external/happynandroid/happynet/app/build/intermediates/cmake/githubArmDebug/obj/armeabi-v7a/libn2n_v1.so"],"buildDirectory":"D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -D__ANDROID_NDK__ -O0 -fno-limit-debug-info  -fPIC  ","defines":["CMAKE_BUILD","GIT_RELEASE=\"\"","N2N_MODIFY_AUTHOR=\"happyn(https://happyn.net) switchwang(https://github.com/switch-st) zhangbz(https://github.com/zhangbz)\"","N2N_MODIFY_VERSION=\"v2s_0.1.0\"","N2N_OSNAME=\"Android-1\"","N2N_VERSION=\"2.9.0\"","PACKAGE_OSNAME=\"Android-1\"","PACKAGE_VERSION=\"2.9.0\"","UIP_CONF_BYTE_ORDER=\"UIP_LITTLE_ENDIAN\"","n2n_v1_EXPORTS"],"includePath":[{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/edge_jni"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/slog"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/tun2tap"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/uip"}],"isGenerated":false,"language":"C","sources":["src/main/cpp/n2n_v1/n2n.c","src/main/cpp/n2n_v1/minilzo.c","src/main/cpp/n2n_v1/twofish.c","src/main/cpp/n2n_v1/android/tuntap_android.c","src/main/cpp/n2n_v1/version.c"]}],"fullName":"libn2n_v1.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments","linkLibraries":"..\\..\\..\\..\\build\\intermediates\\cmake\\githubArmDebug\\obj\\armeabi-v7a\\libuip.so ..\\..\\..\\..\\build\\intermediates\\cmake\\githubArmDebug\\obj\\armeabi-v7a\\libslog.so -llog -latomic -lm","linkPath":"-LD:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\jniLibs\\armeabi-v7a","linkerLanguage":"C","name":"n2n_v1","sourceDirectory":"D:/workspace/external/happynandroid/happynet/app","sysroot":"D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"SHARED_LIBRARY"},{"artifacts":["D:/workspace/external/happynandroid/happynet/app/build/intermediates/cmake/githubArmDebug/obj/armeabi-v7a/libedge_jni.so"],"buildDirectory":"D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -D__ANDROID_NDK__ -O0 -fno-limit-debug-info  -fPIC  ","defines":["CMAKE_BUILD","GIT_RELEASE=\"\"","HAVE_OPENSSL_1_1","N2N_HAVE_AES","N2N_MODIFY_AUTHOR=\"happyn(https://happyn.net) switchwang(https://github.com/switch-st) zhangbz(https://github.com/zhangbz)\"","N2N_MODIFY_VERSION=\"v2s_0.1.0\"","N2N_OSNAME=\"Android-1\"","N2N_VERSION=\"2.9.0\"","PACKAGE_OSNAME=\"Android-1\"","PACKAGE_VERSION=\"2.9.0\"","UIP_CONF_BYTE_ORDER=\"UIP_LITTLE_ENDIAN\"","edge_jni_EXPORTS"],"includePath":[{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/edge_jni"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/slog"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/tun2tap"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/uip"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/n2n_v3/include"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/jniLibs/armeabi-v7a/include"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/n2n_v2/include"}],"isGenerated":false,"language":"C","sources":["src/main/cpp/edge_jni/edge_jni.c"]}],"fullName":"libedge_jni.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments","linkLibraries":"..\\..\\..\\..\\build\\intermediates\\cmake\\githubArmDebug\\obj\\armeabi-v7a\\libedge_v3.so ..\\..\\..\\..\\build\\intermediates\\cmake\\githubArmDebug\\obj\\armeabi-v7a\\libedge_v2s.so ..\\..\\..\\..\\build\\intermediates\\cmake\\githubArmDebug\\obj\\armeabi-v7a\\libedge_v2.so ..\\..\\..\\..\\build\\intermediates\\cmake\\githubArmDebug\\obj\\armeabi-v7a\\libedge_v1.so -lcrypto ..\\..\\..\\..\\build\\intermediates\\cmake\\githubArmDebug\\obj\\armeabi-v7a\\libn2n_v2s.so ..\\..\\..\\..\\build\\intermediates\\cmake\\githubArmDebug\\obj\\armeabi-v7a\\libn2n_v1.so ..\\..\\..\\..\\build\\intermediates\\cmake\\githubArmDebug\\obj\\armeabi-v7a\\libslog.so -llog ..\\..\\..\\..\\build\\intermediates\\cmake\\githubArmDebug\\obj\\armeabi-v7a\\libuip.so -latomic -lm","linkPath":"-LD:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\jniLibs\\armeabi-v7a","linkerLanguage":"C","name":"edge_jni","sourceDirectory":"D:/workspace/external/happynandroid/happynet/app","sysroot":"D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"SHARED_LIBRARY"},{"artifacts":["D:/workspace/external/happynandroid/happynet/app/build/intermediates/cmake/githubArmDebug/obj/armeabi-v7a/libuip.so"],"buildDirectory":"D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmDebug/armeabi-v7a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -D__ANDROID_NDK__ -O0 -fno-limit-debug-info  -fPIC  ","defines":["CMAKE_BUILD","GIT_RELEASE=\"\"","N2N_MODIFY_AUTHOR=\"happyn(https://happyn.net) switchwang(https://github.com/switch-st) zhangbz(https://github.com/zhangbz)\"","N2N_MODIFY_VERSION=\"v2s_0.1.0\"","N2N_OSNAME=\"Android-1\"","N2N_VERSION=\"2.9.0\"","PACKAGE_OSNAME=\"Android-1\"","PACKAGE_VERSION=\"2.9.0\"","UIP_CONF_BYTE_ORDER=\"UIP_LITTLE_ENDIAN\"","uip_EXPORTS"],"includePath":[{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/edge_jni"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/slog"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/tun2tap"},{"path":"D:/workspace/external/happynandroid/happynet/app/src/main/cpp/uip"}],"isGenerated":false,"language":"C","sources":["src/main/cpp/uip/uip.c","src/main/cpp/uip/uip_arp.c","src/main/cpp/tun2tap/tun2tap.c"]}],"fullName":"libuip.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments","linkLibraries":"-latomic -lm","linkPath":"-LD:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\jniLibs\\armeabi-v7a","linkerLanguage":"C","name":"uip","sourceDirectory":"D:/workspace/external/happynandroid/happynet/app","sysroot":"D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"SHARED_LIBRARY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+

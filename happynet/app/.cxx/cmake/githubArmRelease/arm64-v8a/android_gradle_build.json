@@ -1,0 +1,460 @@
+{
+  "stringTable": {
+    "0": "D:/workspace/external/happynandroid/happynet/app/.cxx/cmake/githubArmRelease/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android21 --gcc-toolchain=D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DCMAKE_BUILD -DGIT_RELEASE=\\\"\\\" -DHAVE_OPENSSL_1_1 -DN2N_HAVE_AES -DN2N_MODIFY_AUTHOR=\"\\\"happyn(https://happyn.net) switchwang(https://github.com/switch-st) zhangbz(https://github.com/zhangbz)\\\"\" -DN2N_MODIFY_VERSION=\\\"v2s_0.1.0\\\" -DN2N_OSNAME=\\\"Android-1\\\" -DN2N_VERSION=\\\"2.9.0\\\" -DPACKAGE_OSNAME=\\\"Android-1\\\" -DPACKAGE_VERSION=\\\"2.9.0\\\" -DUIP_CONF_BYTE_ORDER=\\\"UIP_LITTLE_ENDIAN\\\" -Dedge_jni_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/cpp/edge_jni -I../../../../src/main/cpp/slog -I../../../../src/main/cpp/tun2tap -I../../../../src/main/cpp/uip -I../../../../src/main/cpp/n2n_v3/include -I../../../../src/main/jniLibs/arm64-v8a/include -I../../../../src/main/cpp/n2n_v2/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -D__ANDROID_NDK__ -O2 -DNDEBUG -fPIC",
+    "2": "--target=aarch64-none-linux-android21 --gcc-toolchain=D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DCMAKE_BUILD -DGIT_RELEASE=\\\"\\\" -DN2N_MODIFY_AUTHOR=\"\\\"happyn(https://happyn.net) switchwang(https://github.com/switch-st) zhangbz(https://github.com/zhangbz)\\\"\" -DN2N_MODIFY_VERSION=\\\"v2s_0.1.0\\\" -DN2N_OSNAME=\\\"Android-1\\\" -DN2N_VERSION=\\\"2.9.0\\\" -DPACKAGE_OSNAME=\\\"Android-1\\\" -DPACKAGE_VERSION=\\\"2.9.0\\\" -DUIP_CONF_BYTE_ORDER=\\\"UIP_LITTLE_ENDIAN\\\" -Dedge_v1_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/cpp/edge_jni -I../../../../src/main/cpp/slog -I../../../../src/main/cpp/tun2tap -I../../../../src/main/cpp/uip -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -D__ANDROID_NDK__ -O2 -DNDEBUG -fPIC",
+    "3": "--target=aarch64-none-linux-android21 --gcc-toolchain=D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DCMAKE_BUILD -DGIT_RELEASE=\\\"\\\" -DHAVE_OPENSSL_1_1 -DN2N_HAVE_AES -DN2N_MODIFY_AUTHOR=\"\\\"happyn(https://happyn.net) switchwang(https://github.com/switch-st) zhangbz(https://github.com/zhangbz)\\\"\" -DN2N_MODIFY_VERSION=\\\"v2s_0.1.0\\\" -DN2N_OSNAME=\\\"Android-1\\\" -DN2N_VERSION=\\\"2.9.0\\\" -DPACKAGE_OSNAME=\\\"Android-1\\\" -DPACKAGE_VERSION=\\\"2.9.0\\\" -DUIP_CONF_BYTE_ORDER=\\\"UIP_LITTLE_ENDIAN\\\" -Dedge_v3_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/cpp/edge_jni -I../../../../src/main/cpp/slog -I../../../../src/main/cpp/tun2tap -I../../../../src/main/cpp/uip -I../../../../src/main/cpp/n2n_v3/include -I../../../../src/main/jniLibs/arm64-v8a/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -D__ANDROID_NDK__ -O2 -DNDEBUG -fPIC -DN2N_V3",
+    "4": "--target=aarch64-none-linux-android21 --gcc-toolchain=D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DCMAKE_BUILD -DGIT_RELEASE=\\\"\\\" -DN2N_MODIFY_AUTHOR=\"\\\"happyn(https://happyn.net) switchwang(https://github.com/switch-st) zhangbz(https://github.com/zhangbz)\\\"\" -DN2N_MODIFY_VERSION=\\\"v2s_0.1.0\\\" -DN2N_OSNAME=\\\"Android-1\\\" -DN2N_VERSION=\\\"2.9.0\\\" -DPACKAGE_OSNAME=\\\"Android-1\\\" -DPACKAGE_VERSION=\\\"2.9.0\\\" -DUIP_CONF_BYTE_ORDER=\\\"UIP_LITTLE_ENDIAN\\\" -Dedge_v2s_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/cpp/edge_jni -I../../../../src/main/cpp/slog -I../../../../src/main/cpp/tun2tap -I../../../../src/main/cpp/uip -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -D__ANDROID_NDK__ -O2 -DNDEBUG -fPIC",
+    "5": "--target=aarch64-none-linux-android21 --gcc-toolchain=D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DCMAKE_BUILD -DGIT_RELEASE=\\\"\\\" -DHAVE_OPENSSL_1_1 -DN2N_HAVE_AES -DN2N_MODIFY_AUTHOR=\"\\\"happyn(https://happyn.net) switchwang(https://github.com/switch-st) zhangbz(https://github.com/zhangbz)\\\"\" -DN2N_MODIFY_VERSION=\\\"v2s_0.1.0\\\" -DN2N_OSNAME=\\\"Android-1\\\" -DN2N_VERSION=\\\"2.9.0\\\" -DPACKAGE_OSNAME=\\\"Android-1\\\" -DPACKAGE_VERSION=\\\"2.9.0\\\" -DUIP_CONF_BYTE_ORDER=\\\"UIP_LITTLE_ENDIAN\\\" -Dedge_v2_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/cpp/edge_jni -I../../../../src/main/cpp/slog -I../../../../src/main/cpp/tun2tap -I../../../../src/main/cpp/uip -I../../../../src/main/cpp/n2n_v2/include -I../../../../src/main/jniLibs/arm64-v8a/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -D__ANDROID_NDK__ -O2 -DNDEBUG -fPIC",
+    "6": "--target=aarch64-none-linux-android21 --gcc-toolchain=D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DCMAKE_BUILD -DGIT_RELEASE=\\\"\\\" -DN2N_MODIFY_AUTHOR=\"\\\"happyn(https://happyn.net) switchwang(https://github.com/switch-st) zhangbz(https://github.com/zhangbz)\\\"\" -DN2N_MODIFY_VERSION=\\\"v2s_0.1.0\\\" -DN2N_OSNAME=\\\"Android-1\\\" -DN2N_VERSION=\\\"2.9.0\\\" -DPACKAGE_OSNAME=\\\"Android-1\\\" -DPACKAGE_VERSION=\\\"2.9.0\\\" -DUIP_CONF_BYTE_ORDER=\\\"UIP_LITTLE_ENDIAN\\\" -Dn2n_v2s_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/cpp/edge_jni -I../../../../src/main/cpp/slog -I../../../../src/main/cpp/tun2tap -I../../../../src/main/cpp/uip -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -D__ANDROID_NDK__ -O2 -DNDEBUG -fPIC",
+    "7": "--target=aarch64-none-linux-android21 --gcc-toolchain=D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DCMAKE_BUILD -DGIT_RELEASE=\\\"\\\" -DN2N_MODIFY_AUTHOR=\"\\\"happyn(https://happyn.net) switchwang(https://github.com/switch-st) zhangbz(https://github.com/zhangbz)\\\"\" -DN2N_MODIFY_VERSION=\\\"v2s_0.1.0\\\" -DN2N_OSNAME=\\\"Android-1\\\" -DN2N_VERSION=\\\"2.9.0\\\" -DPACKAGE_OSNAME=\\\"Android-1\\\" -DPACKAGE_VERSION=\\\"2.9.0\\\" -DUIP_CONF_BYTE_ORDER=\\\"UIP_LITTLE_ENDIAN\\\" -Dn2n_v1_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/cpp/edge_jni -I../../../../src/main/cpp/slog -I../../../../src/main/cpp/tun2tap -I../../../../src/main/cpp/uip -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -D__ANDROID_NDK__ -O2 -DNDEBUG -fPIC",
+    "8": "--target=aarch64-none-linux-android21 --gcc-toolchain=D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DCMAKE_BUILD -DGIT_RELEASE=\\\"\\\" -DN2N_MODIFY_AUTHOR=\"\\\"happyn(https://happyn.net) switchwang(https://github.com/switch-st) zhangbz(https://github.com/zhangbz)\\\"\" -DN2N_MODIFY_VERSION=\\\"v2s_0.1.0\\\" -DN2N_OSNAME=\\\"Android-1\\\" -DN2N_VERSION=\\\"2.9.0\\\" -DPACKAGE_OSNAME=\\\"Android-1\\\" -DPACKAGE_VERSION=\\\"2.9.0\\\" -DUIP_CONF_BYTE_ORDER=\\\"UIP_LITTLE_ENDIAN\\\" -Duip_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/cpp/edge_jni -I../../../../src/main/cpp/slog -I../../../../src/main/cpp/tun2tap -I../../../../src/main/cpp/uip -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -D__ANDROID_NDK__ -O2 -DNDEBUG -fPIC",
+    "9": "--target=aarch64-none-linux-android21 --gcc-toolchain=D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/developer/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DCMAKE_BUILD -DGIT_RELEASE=\\\"\\\" -DN2N_MODIFY_AUTHOR=\"\\\"happyn(https://happyn.net) switchwang(https://github.com/switch-st) zhangbz(https://github.com/zhangbz)\\\"\" -DN2N_MODIFY_VERSION=\\\"v2s_0.1.0\\\" -DN2N_OSNAME=\\\"Android-1\\\" -DN2N_VERSION=\\\"2.9.0\\\" -DPACKAGE_OSNAME=\\\"Android-1\\\" -DPACKAGE_VERSION=\\\"2.9.0\\\" -DUIP_CONF_BYTE_ORDER=\\\"UIP_LITTLE_ENDIAN\\\" -Dslog_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/cpp/edge_jni -I../../../../src/main/cpp/slog -I../../../../src/main/cpp/tun2tap -I../../../../src/main/cpp/uip -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -D__ANDROID_NDK__ -O2 -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "D:\\workspace\\external\\happynandroid\\happynet\\app\\CMakeLists.txt",
+    "D:\\developer\\Android\\Sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "D:\\developer\\Android\\Sdk\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "D:\\developer\\Android\\Sdk\\ndk-bundle\\build\\cmake\\compiler_id.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\githubArmRelease\\arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\githubArmRelease\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "n2n_v2s-Release-arm64-v8a": {
+      "buildCommand": "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\githubArmRelease\\arm64-v8a\" n2n_v2s",
+      "buildType": "release",
+      "toolchain": "4250064552",
+      "abi": "arm64-v8a",
+      "artifactName": "n2n_v2s",
+      "files": [
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v2s\\n2n.c",
+          "flagsOrdinal": 6,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v2s\\n2n_keyfile.c",
+          "flagsOrdinal": 6,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v2s\\wire.c",
+          "flagsOrdinal": 6,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v2s\\minilzo.c",
+          "flagsOrdinal": 6,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v2s\\twofish.c",
+          "flagsOrdinal": 6,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v2s\\transform_null.c",
+          "flagsOrdinal": 6,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v2s\\transform_tf.c",
+          "flagsOrdinal": 6,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v2s\\transform_aes.c",
+          "flagsOrdinal": 6,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v2s\\android\\tuntap_android.c",
+          "flagsOrdinal": 6,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v2s\\version.c",
+          "flagsOrdinal": 6,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubArmRelease\\obj\\arm64-v8a\\libn2n_v2s.so",
+      "runtimeFiles": [
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubArmRelease\\obj\\arm64-v8a\\libuip.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubArmRelease\\obj\\arm64-v8a\\libslog.so"
+      ]
+    },
+    "slog-Release-arm64-v8a": {
+      "buildCommand": "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\githubArmRelease\\arm64-v8a\" slog",
+      "buildType": "release",
+      "toolchain": "4250064552",
+      "abi": "arm64-v8a",
+      "artifactName": "slog",
+      "files": [
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\slog\\slog.c",
+          "flagsOrdinal": 9,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubArmRelease\\obj\\arm64-v8a\\libslog.so",
+      "runtimeFiles": []
+    },
+    "edge_v2s-Release-arm64-v8a": {
+      "buildCommand": "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\githubArmRelease\\arm64-v8a\" edge_v2s",
+      "buildType": "release",
+      "toolchain": "4250064552",
+      "abi": "arm64-v8a",
+      "artifactName": "edge_v2s",
+      "files": [
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v2s\\edge.c",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubArmRelease\\obj\\arm64-v8a\\libedge_v2s.so",
+      "runtimeFiles": [
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubArmRelease\\obj\\arm64-v8a\\libn2n_v2s.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubArmRelease\\obj\\arm64-v8a\\libslog.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubArmRelease\\obj\\arm64-v8a\\libuip.so"
+      ]
+    },
+    "n2n_v1-Release-arm64-v8a": {
+      "buildCommand": "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\githubArmRelease\\arm64-v8a\" n2n_v1",
+      "buildType": "release",
+      "toolchain": "4250064552",
+      "abi": "arm64-v8a",
+      "artifactName": "n2n_v1",
+      "files": [
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v1\\n2n.c",
+          "flagsOrdinal": 7,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v1\\minilzo.c",
+          "flagsOrdinal": 7,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v1\\twofish.c",
+          "flagsOrdinal": 7,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v1\\android\\tuntap_android.c",
+          "flagsOrdinal": 7,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v1\\version.c",
+          "flagsOrdinal": 7,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubArmRelease\\obj\\arm64-v8a\\libn2n_v1.so",
+      "runtimeFiles": [
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubArmRelease\\obj\\arm64-v8a\\libuip.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubArmRelease\\obj\\arm64-v8a\\libslog.so"
+      ]
+    },
+    "edge_jni-Release-arm64-v8a": {
+      "buildCommand": "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\githubArmRelease\\arm64-v8a\" edge_jni",
+      "buildType": "release",
+      "toolchain": "4250064552",
+      "abi": "arm64-v8a",
+      "artifactName": "edge_jni",
+      "files": [
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\edge_jni\\edge_jni.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubArmRelease\\obj\\arm64-v8a\\libedge_jni.so",
+      "runtimeFiles": [
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubArmRelease\\obj\\arm64-v8a\\libedge_v3.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubArmRelease\\obj\\arm64-v8a\\libedge_v2s.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubArmRelease\\obj\\arm64-v8a\\libedge_v2.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubArmRelease\\obj\\arm64-v8a\\libedge_v1.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubArmRelease\\obj\\arm64-v8a\\libn2n_v2s.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubArmRelease\\obj\\arm64-v8a\\libn2n_v1.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubArmRelease\\obj\\arm64-v8a\\libslog.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubArmRelease\\obj\\arm64-v8a\\libuip.so"
+      ]
+    },
+    "edge_v1-Release-arm64-v8a": {
+      "buildCommand": "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\githubArmRelease\\arm64-v8a\" edge_v1",
+      "buildType": "release",
+      "toolchain": "4250064552",
+      "abi": "arm64-v8a",
+      "artifactName": "edge_v1",
+      "files": [
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v1\\edge.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubArmRelease\\obj\\arm64-v8a\\libedge_v1.so",
+      "runtimeFiles": [
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubArmRelease\\obj\\arm64-v8a\\libn2n_v1.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubArmRelease\\obj\\arm64-v8a\\libslog.so",
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubArmRelease\\obj\\arm64-v8a\\libuip.so"
+      ]
+    },
+    "uip-Release-arm64-v8a": {
+      "buildCommand": "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\githubArmRelease\\arm64-v8a\" uip",
+      "buildType": "release",
+      "toolchain": "4250064552",
+      "abi": "arm64-v8a",
+      "artifactName": "uip",
+      "files": [
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\uip\\uip.c",
+          "flagsOrdinal": 8,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\uip\\uip_arp.c",
+          "flagsOrdinal": 8,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\tun2tap\\tun2tap.c",
+          "flagsOrdinal": 8,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubArmRelease\\obj\\arm64-v8a\\libuip.so",
+      "runtimeFiles": []
+    },
+    "edge_v3-Release-arm64-v8a": {
+      "buildCommand": "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\githubArmRelease\\arm64-v8a\" edge_v3",
+      "buildType": "release",
+      "toolchain": "4250064552",
+      "abi": "arm64-v8a",
+      "artifactName": "edge_v3",
+      "files": [
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v3\\src\\n2n.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v3\\src\\edge_utils.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v3\\src\\wire.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v3\\src\\minilzo.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v3\\src\\speck.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v3\\src\\pearson.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v3\\src\\tf.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v3\\src\\header_encryption.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v3\\src\\transform_null.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v3\\src\\transform_tf.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v3\\src\\transform_aes.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v3\\src\\transform_speck.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v3\\src\\transform_cc20.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v3\\src\\cc20.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v3\\src\\aes.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v3\\src\\network_traffic_filter.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v3\\src\\sn_selection.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v3\\src\\random_numbers.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\edge_jni\\tuntap_android_v2.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\edge_jni\\edge_android_v2.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubArmRelease\\obj\\arm64-v8a\\libedge_v3.so",
+      "runtimeFiles": [
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubArmRelease\\obj\\arm64-v8a\\libuip.so"
+      ]
+    },
+    "edge_v2-Release-arm64-v8a": {
+      "buildCommand": "D:\\developer\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\workspace\\external\\happynandroid\\happynet\\app\\.cxx\\cmake\\githubArmRelease\\arm64-v8a\" edge_v2",
+      "buildType": "release",
+      "toolchain": "4250064552",
+      "abi": "arm64-v8a",
+      "artifactName": "edge_v2",
+      "files": [
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v2\\src\\n2n.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v2\\src\\edge_utils.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v2\\src\\wire.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v2\\src\\minilzo.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v2\\src\\twofish.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v2\\src\\speck.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v2\\src\\pearson.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v2\\src\\header_encryption.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v2\\src\\transform_null.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v2\\src\\transform_tf.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v2\\src\\transform_aes.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v2\\src\\transform_speck.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v2\\src\\transform_cc20.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\n2n_v2\\src\\random_numbers.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\edge_jni\\tuntap_android_v2.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\workspace\\external\\happynandroid\\happynet\\app\\src\\main\\cpp\\edge_jni\\edge_android_v2.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubArmRelease\\obj\\arm64-v8a\\libedge_v2.so",
+      "runtimeFiles": [
+        "D:\\workspace\\external\\happynandroid\\happynet\\app\\build\\intermediates\\cmake\\githubArmRelease\\obj\\arm64-v8a\\libuip.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "4250064552": {
+      "cCompilerExecutable": "D:\\developer\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}
