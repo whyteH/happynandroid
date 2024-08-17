@@ -6,12 +6,12 @@
     <string name="facebook_app_id"></string>
 
     <string name="no_setting"></string>
-    <string name="title_add_setting">新建配置</string>
+    <string name="title_add_setting">New Configuration</string>
     <string name="title_update_setting">更新配置</string>
     <string name="title_setting_list">配置列表</string>
     
-    <string name="dialog_add_succeed">添加成功!</string>
-    <string name="dialog_save_succeed">保存成功!</string>
+    <string name="dialog_add_succeed">save success!</string>
+    <string name="dialog_save_succeed">save success!</string>
     <string name="dialog_update_succeed">更新成功!</string>
     <string name="dialog_update_request">更新此配置，并用此配置重新连接服务器?</string>
     <string name="dialog_yes">是</string>

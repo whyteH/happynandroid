@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    android:layout_height="match_parent">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -13,18 +11,18 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingBottom="@dimen/activity_vertical_margin"
-            android:paddingLeft="@dimen/activity_horizontal_margin"
-            android:paddingRight="@dimen/activity_horizontal_margin"
-            android:paddingTop="@dimen/activity_vertical_margin"
             android:focusable="true"
-            android:focusableInTouchMode="true">
+            android:focusableInTouchMode="true"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin">
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/til_setting_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="配置名称">
+                android:hint="Configuration Name">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/tie_setting_name"
@@ -34,11 +32,11 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <LinearLayout
-                android:layout_below="@id/til_setting_name"
                 android:id="@+id/ll_n2n_version"
-                android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_below="@id/til_setting_name"
+                android:orientation="vertical">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -87,7 +85,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/ll_n2n_version"
                 android:layout_marginTop="5dp"
-                android:hint="服务URL">
+                android:hint="Service URL">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/tie_super_node"
@@ -103,7 +101,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/til_super_node"
                 android:layout_marginTop="5dp"
-                android:hint="服务ID,示例:VIP0378">
+                android:hint="Service ID,e.g.:VIP0378">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/tie_community"
@@ -118,7 +116,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/til_community"
                 android:layout_marginTop="5dp"
-                android:hint="服务密钥,示例:1c20">
+                android:hint="Service key,e.g.:1c20">
                 <!--app:passwordToggleEnabled="true"-->
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -131,23 +129,23 @@
 
             <!--boolean-->
             <RelativeLayout
-                android:layout_marginTop="5dp"
                 android:id="@+id/rl_get_ip_from_supernode"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/til_encrypt">
+                android:layout_below="@id/til_encrypt"
+                android:layout_marginTop="5dp">
 
                 <CheckBox
                     android:id="@+id/get_ip_from_supernode_check_box"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
                     android:layout_toRightOf="@id/get_ip_from_supernode_check_box"
-                    android:text="自动分配IP" />
+                    android:text="Automatic IP Assignment" />
             </RelativeLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -187,7 +185,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/til_net_mask"
                 android:layout_marginTop="5dp"
-                android:hint="设备描述">
+                android:hint="Device Description">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/tie_dev_desc"
@@ -197,23 +195,23 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <RelativeLayout
-                android:layout_marginTop="5dp"
                 android:id="@+id/rl_more_setting_check_box"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/til_dev_desc">
+                android:layout_below="@id/til_dev_desc"
+                android:layout_marginTop="5dp">
 
                 <CheckBox
                     android:id="@+id/more_setting_check_box"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
                     android:layout_toRightOf="@id/more_setting_check_box"
-                    android:text="专家设置" />
+                    android:text="Expert Settings" />
             </RelativeLayout>
 
             <RelativeLayout
@@ -257,11 +255,11 @@
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
-                    android:layout_marginTop="5dp"
                     android:id="@+id/til_mtu"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/til_super_node_2"
+                    android:layout_marginTop="5dp"
                     android:hint="MTU">
 
                     <com.google.android.material.textfield.TextInputEditText
@@ -272,11 +270,11 @@
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
-                    android:layout_marginTop="5dp"
                     android:id="@+id/til_hole_punch_Interval"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/til_mtu"
+                    android:layout_marginTop="5dp"
                     android:hint="Hole-punch interval">
 
                     <com.google.android.material.textfield.TextInputEditText
@@ -302,12 +300,12 @@
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <CheckBox
-                    android:layout_marginTop="5dp"
-                    android:layout_below="@id/til_local_ip"
                     android:id="@+id/check_box_local_ip"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Automatically detect local IP"/>
+                    android:layout_below="@id/til_local_ip"
+                    android:layout_marginTop="5dp"
+                    android:text="Automatically detect local IP" />
 
                 <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/til_local_port"
@@ -373,140 +371,142 @@
 
                 <!--boolean-->
                 <RelativeLayout
-                    android:layout_marginTop="5dp"
                     android:id="@+id/rl_resolve_super_node_ip_check_box"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/til_mac_addr">
+                    android:layout_below="@id/til_mac_addr"
+                    android:layout_marginTop="5dp">
 
                     <CheckBox
                         android:id="@+id/resove_super_node_ip_check_box"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:layout_toRightOf="@id/resove_super_node_ip_check_box"
-                        android:text="Supernodes are running dynamic IPs"/>
+                        android:text="Supernodes are running dynamic IPs" />
                 </RelativeLayout>
 
 
                 <!--boolean-->
                 <RelativeLayout
-                    android:layout_marginTop="5dp"
                     android:id="@+id/rl_allow_routing"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/rl_resolve_super_node_ip_check_box">
+                    android:layout_below="@id/rl_resolve_super_node_ip_check_box"
+                    android:layout_marginTop="5dp">
 
                     <CheckBox
                         android:id="@+id/allow_routing_check_box"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:layout_toRightOf="@id/allow_routing_check_box"
-                        android:text="开启本地数据包转发"/>
+                        android:text="开启本地数据包转发" />
                 </RelativeLayout>
 
                 <!--boolean-->
                 <RelativeLayout
-                    android:layout_marginTop="5dp"
                     android:id="@+id/rl_drop_muticast"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/rl_allow_routing">
+                    android:layout_below="@id/rl_allow_routing"
+                    android:layout_marginTop="5dp">
 
                     <CheckBox
                         android:id="@+id/accept_muticast_check_box"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:layout_toRightOf="@id/accept_muticast_check_box"
-                        android:text="接收多播MAC地址"/>
+                        android:text="接收多播MAC地址" />
                 </RelativeLayout>
 
                 <RelativeLayout
-                    android:layout_marginTop="5dp"
                     android:id="@+id/rl_use_http_tunnel"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/rl_drop_muticast"
+                    android:layout_marginTop="5dp"
                     android:visibility="gone">
 
                     <CheckBox
                         android:id="@+id/use_http_tunnel_check_box"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:layout_toRightOf="@id/use_http_tunnel_check_box"
-                        android:text="采用HTTP通道传输"/>
+                        android:text="采用HTTP通道传输" />
                 </RelativeLayout>
+
                 <RelativeLayout
-                    android:layout_marginTop="5dp"
-                    android:layout_below="@id/rl_use_http_tunnel"
                     android:id="@+id/rl_trace_level"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/rl_use_http_tunnel"
+                    android:layout_marginTop="5dp">
 
                     <TextView
                         android:id="@+id/tv_trace_level"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="日志输出 : "/>
+                        android:text="日志输出 : " />
 
                     <Spinner
-                        android:layout_toRightOf="@id/tv_trace_level"
                         android:id="@+id/spinner_trace_level"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_trace_level" />
                 </RelativeLayout>
 
             </RelativeLayout>
 
             <RelativeLayout
-                android:layout_marginTop="10dp"
                 android:id="@+id/rl_buttons"
-                android:layout_below="@id/rl_more_setting"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rl_more_setting"
+                android:layout_marginTop="10dp">
+
                 <Button
-                    android:visibility="gone"
                     android:id="@+id/btn_save"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="保存"/>
+                    android:text="Save"
+                    android:visibility="gone" />
 
                 <LinearLayout
                     android:id="@+id/ll_buttons"
-                    android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
                     <Button
                         android:id="@+id/btn_modify"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="保存" />
+                        android:text="Save" />
                     <!--<Button-->
-                        <!--android:layout_weight="0.5"-->
-                        <!--android:id="@+id/btn_delete"-->
-                        <!--android:text="delete"-->
-                        <!--android:layout_width="wrap_content"-->
-                        <!--android:layout_height="wrap_content"/>-->
+                    <!--android:layout_weight="0.5"-->
+                    <!--android:id="@+id/btn_delete"-->
+                    <!--android:text="delete"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"/>-->
                 </LinearLayout>
             </RelativeLayout>
 

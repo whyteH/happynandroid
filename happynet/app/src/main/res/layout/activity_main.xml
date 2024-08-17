@@ -44,7 +44,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
-                android:text="当前配置 : "
+                android:text="Current Configuration : "
                 android:textSize="18dp" />
 
             <RelativeLayout

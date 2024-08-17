@@ -366,7 +366,7 @@ public class SettingDetailsActivity extends BaseActivity implements View.OnClick
             case R.id.rb_v1:
                 mUseHttpTunnelCheckBox.setVisibility(View.GONE);
                 mGetIpFromSupernodeView.setVisibility(View.GONE);
-                mGetIpFromSupernodeCheckBox.setChecked(false);
+                mGetIpFromSupernodeCheckBox.setChecked(true);
                 mDevDescTIL.setVisibility(View.GONE);
                 mSuperNodeBackup.setVisibility(View.GONE);
                 mAcceptMuticastView.setVisibility(View.GONE);
@@ -384,7 +384,7 @@ public class SettingDetailsActivity extends BaseActivity implements View.OnClick
             case R.id.rb_v2:
                 mUseHttpTunnelCheckBox.setVisibility(View.GONE);
                 mGetIpFromSupernodeView.setVisibility(View.GONE);
-                mGetIpFromSupernodeCheckBox.setChecked(false);
+                mGetIpFromSupernodeCheckBox.setChecked(true);
                 mDevDescTIL.setVisibility(View.GONE);
                 mSuperNodeBackup.setVisibility(View.VISIBLE);
                 mAcceptMuticastView.setVisibility(View.VISIBLE);
@@ -403,7 +403,7 @@ public class SettingDetailsActivity extends BaseActivity implements View.OnClick
                 mUseHttpTunnelCheckBox.setVisibility(View.GONE);
                 mDevDescTIL.setVisibility(View.GONE);
                 mGetIpFromSupernodeView.setVisibility(View.GONE);
-                mGetIpFromSupernodeCheckBox.setChecked(false);
+                mGetIpFromSupernodeCheckBox.setChecked(true);
                 mSuperNodeBackup.setVisibility(View.VISIBLE);
                 mAcceptMuticastView.setVisibility(View.VISIBLE);
                 mHolePunchInterval.setVisibility(View.VISIBLE);
@@ -424,7 +424,7 @@ public class SettingDetailsActivity extends BaseActivity implements View.OnClick
                 boolean bGetIpFromSupernodeChecked = false;
                 if(mN2NSettingModel != null)
                     bGetIpFromSupernodeChecked = mN2NSettingModel.getIpMode() == 1;
-                mGetIpFromSupernodeCheckBox.setChecked(bGetIpFromSupernodeChecked);
+                mGetIpFromSupernodeCheckBox.setChecked(true);
                 mSuperNodeBackup.setVisibility(View.VISIBLE);
                 mAcceptMuticastView.setVisibility(View.VISIBLE);
                 mHolePunchInterval.setVisibility(View.GONE);

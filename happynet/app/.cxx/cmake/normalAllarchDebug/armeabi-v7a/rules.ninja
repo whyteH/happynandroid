@@ -194,7 +194,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = D:\developer\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HD:\happynandroid\happynet\app -BD:\happynandroid\happynet\app\.cxx\cmake\normalAllarchDebug\armeabi-v7a
+  command = D:\developer\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HD:\workspace\external\happynandroid\happynet\app -BD:\workspace\external\happynandroid\happynet\app\.cxx\cmake\normalAllarchDebug\armeabi-v7a
   description = Re-running CMake...
   generator = 1
 

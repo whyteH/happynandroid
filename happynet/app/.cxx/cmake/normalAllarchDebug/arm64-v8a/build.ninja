@@ -56,7 +56,7 @@ build ../../../../build/intermediates/cmake/normalAllarchDebug/obj/arm64-v8a/lib
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -D__ANDROID_NDK__ -O0 -fno-limit-debug-info
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments
   LINK_LIBRARIES = ../../../../build/intermediates/cmake/normalAllarchDebug/obj/arm64-v8a/libedge_v3.so ../../../../build/intermediates/cmake/normalAllarchDebug/obj/arm64-v8a/libedge_v2s.so ../../../../build/intermediates/cmake/normalAllarchDebug/obj/arm64-v8a/libedge_v2.so ../../../../build/intermediates/cmake/normalAllarchDebug/obj/arm64-v8a/libedge_v1.so -lcrypto ../../../../build/intermediates/cmake/normalAllarchDebug/obj/arm64-v8a/libn2n_v2s.so ../../../../build/intermediates/cmake/normalAllarchDebug/obj/arm64-v8a/libn2n_v1.so ../../../../build/intermediates/cmake/normalAllarchDebug/obj/arm64-v8a/libslog.so -llog ../../../../build/intermediates/cmake/normalAllarchDebug/obj/arm64-v8a/libuip.so -latomic -lm
-  LINK_PATH = -LD:/happynandroid/happynet/app/src/main/jniLibs/arm64-v8a
+  LINK_PATH = -LD:/workspace/external/happynandroid/happynet/app/src/main/jniLibs/arm64-v8a
   OBJECT_DIR = CMakeFiles\edge_jni.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -91,7 +91,7 @@ build ../../../../build/intermediates/cmake/normalAllarchDebug/obj/arm64-v8a/lib
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -D__ANDROID_NDK__ -O0 -fno-limit-debug-info
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments
   LINK_LIBRARIES = ../../../../build/intermediates/cmake/normalAllarchDebug/obj/arm64-v8a/libn2n_v1.so ../../../../build/intermediates/cmake/normalAllarchDebug/obj/arm64-v8a/libslog.so -llog ../../../../build/intermediates/cmake/normalAllarchDebug/obj/arm64-v8a/libuip.so -latomic -lm
-  LINK_PATH = -LD:/happynandroid/happynet/app/src/main/jniLibs/arm64-v8a
+  LINK_PATH = -LD:/workspace/external/happynandroid/happynet/app/src/main/jniLibs/arm64-v8a
   OBJECT_DIR = CMakeFiles\edge_v1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -259,7 +259,7 @@ build ../../../../build/intermediates/cmake/normalAllarchDebug/obj/arm64-v8a/lib
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -D__ANDROID_NDK__ -O0 -fno-limit-debug-info
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments
   LINK_LIBRARIES = ../../../../build/intermediates/cmake/normalAllarchDebug/obj/arm64-v8a/libuip.so -lcrypto -latomic -lm
-  LINK_PATH = -LD:/happynandroid/happynet/app/src/main/jniLibs/arm64-v8a
+  LINK_PATH = -LD:/workspace/external/happynandroid/happynet/app/src/main/jniLibs/arm64-v8a
   OBJECT_DIR = CMakeFiles\edge_v3.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -294,7 +294,7 @@ build ../../../../build/intermediates/cmake/normalAllarchDebug/obj/arm64-v8a/lib
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -D__ANDROID_NDK__ -O0 -fno-limit-debug-info
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments
   LINK_LIBRARIES = ../../../../build/intermediates/cmake/normalAllarchDebug/obj/arm64-v8a/libn2n_v2s.so ../../../../build/intermediates/cmake/normalAllarchDebug/obj/arm64-v8a/libslog.so -llog ../../../../build/intermediates/cmake/normalAllarchDebug/obj/arm64-v8a/libuip.so -latomic -lm
-  LINK_PATH = -LD:/happynandroid/happynet/app/src/main/jniLibs/arm64-v8a
+  LINK_PATH = -LD:/workspace/external/happynandroid/happynet/app/src/main/jniLibs/arm64-v8a
   OBJECT_DIR = CMakeFiles\edge_v2s.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -434,7 +434,7 @@ build ../../../../build/intermediates/cmake/normalAllarchDebug/obj/arm64-v8a/lib
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -D__ANDROID_NDK__ -O0 -fno-limit-debug-info
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments
   LINK_LIBRARIES = ../../../../build/intermediates/cmake/normalAllarchDebug/obj/arm64-v8a/libuip.so -lcrypto -latomic -lm
-  LINK_PATH = -LD:/happynandroid/happynet/app/src/main/jniLibs/arm64-v8a
+  LINK_PATH = -LD:/workspace/external/happynandroid/happynet/app/src/main/jniLibs/arm64-v8a
   OBJECT_DIR = CMakeFiles\edge_v2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -532,7 +532,7 @@ build ../../../../build/intermediates/cmake/normalAllarchDebug/obj/arm64-v8a/lib
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -D__ANDROID_NDK__ -O0 -fno-limit-debug-info
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments
   LINK_LIBRARIES = ../../../../build/intermediates/cmake/normalAllarchDebug/obj/arm64-v8a/libuip.so ../../../../build/intermediates/cmake/normalAllarchDebug/obj/arm64-v8a/libslog.so -llog -latomic -lm
-  LINK_PATH = -LD:/happynandroid/happynet/app/src/main/jniLibs/arm64-v8a
+  LINK_PATH = -LD:/workspace/external/happynandroid/happynet/app/src/main/jniLibs/arm64-v8a
   OBJECT_DIR = CMakeFiles\n2n_v2s.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -595,7 +595,7 @@ build ../../../../build/intermediates/cmake/normalAllarchDebug/obj/arm64-v8a/lib
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -D__ANDROID_NDK__ -O0 -fno-limit-debug-info
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments
   LINK_LIBRARIES = ../../../../build/intermediates/cmake/normalAllarchDebug/obj/arm64-v8a/libuip.so ../../../../build/intermediates/cmake/normalAllarchDebug/obj/arm64-v8a/libslog.so -llog -latomic -lm
-  LINK_PATH = -LD:/happynandroid/happynet/app/src/main/jniLibs/arm64-v8a
+  LINK_PATH = -LD:/workspace/external/happynandroid/happynet/app/src/main/jniLibs/arm64-v8a
   OBJECT_DIR = CMakeFiles\n2n_v1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -644,7 +644,7 @@ build ../../../../build/intermediates/cmake/normalAllarchDebug/obj/arm64-v8a/lib
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -D__ANDROID_NDK__ -O0 -fno-limit-debug-info
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments
   LINK_LIBRARIES = -latomic -lm
-  LINK_PATH = -LD:/happynandroid/happynet/app/src/main/jniLibs/arm64-v8a
+  LINK_PATH = -LD:/workspace/external/happynandroid/happynet/app/src/main/jniLibs/arm64-v8a
   OBJECT_DIR = CMakeFiles\uip.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -679,7 +679,7 @@ build ../../../../build/intermediates/cmake/normalAllarchDebug/obj/arm64-v8a/lib
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -D__ANDROID_NDK__ -O0 -fno-limit-debug-info
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments
   LINK_LIBRARIES = -llog -latomic -lm
-  LINK_PATH = -LD:/happynandroid/happynet/app/src/main/jniLibs/arm64-v8a
+  LINK_PATH = -LD:/workspace/external/happynandroid/happynet/app/src/main/jniLibs/arm64-v8a
   OBJECT_DIR = CMakeFiles\slog.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -692,7 +692,7 @@ build ../../../../build/intermediates/cmake/normalAllarchDebug/obj/arm64-v8a/lib
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\happynandroid\happynet\app\.cxx\cmake\normalAllarchDebug\arm64-v8a && D:\developer\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D D:\workspace\external\happynandroid\happynet\app\.cxx\cmake\normalAllarchDebug\arm64-v8a && D:\developer\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 build edit_cache: phony CMakeFiles/edit_cache.util
@@ -701,7 +701,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\happynandroid\happynet\app\.cxx\cmake\normalAllarchDebug\arm64-v8a && D:\developer\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HD:\happynandroid\happynet\app -BD:\happynandroid\happynet\app\.cxx\cmake\normalAllarchDebug\arm64-v8a"
+  COMMAND = cmd.exe /C "cd /D D:\workspace\external\happynandroid\happynet\app\.cxx\cmake\normalAllarchDebug\arm64-v8a && D:\developer\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HD:\workspace\external\happynandroid\happynet\app -BD:\workspace\external\happynandroid\happynet\app\.cxx\cmake\normalAllarchDebug\arm64-v8a"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
